@@ -28,7 +28,7 @@ public class LiveDataActivity extends AppCompatActivity {
         btn1=findViewById(R.id.btn1);
         btn2=findViewById(R.id.btn2);
 
-        //观察者模式，检测数据的改变
+        //观察者模式，检测数据的改变观察
         liveDataViewModel.getTickadd1().observe(this, new Observer<Integer>() {
             @Override
             public void onChanged(Integer integer) {
