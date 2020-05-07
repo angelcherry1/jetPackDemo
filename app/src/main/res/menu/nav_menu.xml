@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/iukFragment"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:title="Iuk" />
+    <item
+        android:id="@+id/youFragment"
+        android:icon="@drawable/ic_filter_vintage_black_24dp"
+        android:title="you" />
+</menu>
