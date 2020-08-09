@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".dataBinding.DataBindActivity"></activity>
+        <activity android:name=".view.ClearSreenActivity"></activity>
+        <activity android:name=".dataBinding.DataBindActivity" />
         <activity android:name=".room.RoomActivity" />
         <activity android:name=".navigation.NavigationActivity" />
         <activity android:name=".liveData.LiveDataActivity" />

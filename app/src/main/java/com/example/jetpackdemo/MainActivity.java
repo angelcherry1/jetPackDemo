@@ -11,11 +11,12 @@ import com.example.jetpackdemo.dataBinding.DataBindActivity;
 import com.example.jetpackdemo.liveData.LiveDataActivity;
 import com.example.jetpackdemo.navigation.NavigationActivity;
 import com.example.jetpackdemo.room.RoomActivity;
+import com.example.jetpackdemo.view.ClearSreenActivity;
 import com.example.jetpackdemo.viewModel.ConstomViewModel;
 import com.example.jetpackdemo.viewModel.ConstomViewModelActivity;
 
 public class MainActivity extends AppCompatActivity {
-private Button btn1,btn2,btn3,btn4,btn5;
+private Button btn1,btn2,btn3,btn4,btn5,btn6;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,6 +26,7 @@ private Button btn1,btn2,btn3,btn4,btn5;
         btn3   =findViewById(R.id.btn3_navigation);
         btn4   =findViewById(R.id.btn4_room);
         btn5  =findViewById(R.id.btn5_dataBinding);
+        btn6  =findViewById(R.id.btn6_dataBinding);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -57,6 +59,13 @@ private Button btn1,btn2,btn3,btn4,btn5;
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(getApplicationContext(), DataBindActivity.class);
+                startActivity(intent);
+            }
+        });
+        btn6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(getApplicationContext(), ClearSreenActivity.class);
                 startActivity(intent);
             }
         });
