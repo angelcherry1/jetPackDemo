@@ -18,6 +18,7 @@ public class ClearSreenActivity extends AppCompatActivity {
 private MyView myView;
 private RelativeLayout my_rl;
 private Button btn;
+private SinWaveView sinWaveView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,6 +26,8 @@ private Button btn;
         myView=  findViewById(R.id.my_view);
         my_rl=  findViewById(R.id.my_rl);
         btn=  findViewById(R.id.btn);
+        btn=  findViewById(R.id.btn);
+        sinWaveView=  findViewById(R.id.sin_wave);
         myView.setTag(100); //打上标记
 
 
@@ -87,7 +90,6 @@ private int upY;//手指离开的Y坐标
                 }
                 if(upX-downX<200&&(!isShow)){
                     showMyView();
-
                 }
             break;
         }

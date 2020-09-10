@@ -47,8 +47,27 @@
     <Button
         android:id="@+id/btn6_dataBinding"
         android:layout_marginTop="10dp"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="清屏"
+        />
+
+    <Button
+        android:id="@+id/btn6_anima"
+        android:layout_marginTop="10dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="动画"
+        />
+    <Button
+        android:id="@+id/btn_paixu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:background="@drawable/app_find_menu_gift_bg"
+        android:text="我是你爹"
         />
 </LinearLayout>
