@@ -25,13 +25,15 @@ public class SpreadView extends View {
     private Paint spreadPaint; //扩散圆paint
     private float centerX;//圆心x
     private float centerY;//圆心y
-    private int distance = 5; //每次圆递增间距
-    private int maxRadius = 80; //最大圆半径
-    private int delayMilliseconds = 33;//扩散延迟间隔，越大扩散越慢
+    private int distance = 2; //每次圆递增间距
+    private int maxRadius = 50; //最大圆半径
+    private int delayMilliseconds = 3;//扩散延迟间隔，越大扩散越慢
     private List<Integer> spreadRadius = new ArrayList<>();//扩散圆层级数，元素为扩散的距离
     private List<Integer> alphas = new ArrayList<>();//对应每层圆的透明度
     private int centerColor;
     private int spreadColor;
+    private Paint TextPaint; //文字
+    private boolean isStart=true;
     public SpreadView(Context context) {
         this(context,null);
     }
@@ -65,9 +67,14 @@ public class SpreadView extends View {
         alphas.add(255);
         spreadRadius.add(0);
         spreadPaint = new Paint();
+        spreadPaint.setStyle(Paint.Style.FILL);
         spreadPaint.setAntiAlias(true);
         spreadPaint.setAlpha(255);
         spreadPaint.setColor(spreadColor);
+        TextPaint=new Paint();
+        TextPaint.setAntiAlias(true);
+        TextPaint.setColor(Color.parseColor("#FED201"));
+        TextPaint.setTextSize(50f);
     }
     @Override
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
@@ -75,8 +82,9 @@ public class SpreadView extends View {
         //圆心位置
         centerX = w / 2;
         centerY = h / 2;
+        y=centerY;
     }
-
+    private float y;
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
@@ -88,10 +96,10 @@ public class SpreadView extends View {
             canvas.drawCircle(centerX, centerY, radius + width, spreadPaint);
 
             //每次扩散圆半径递增，圆透明度递减
-            if (alpha > 0 && width < 300) {
-                alpha = alpha - distance > 0 ? alpha - distance : 1;
+            if (alpha > 0 && width < 200) {
+                alpha = alpha - distance-1 > 0 ? alpha - distance-1 : 1;
                 alphas.set(i, alpha);
-                spreadRadius.set(i, width + distance);
+                spreadRadius.set(i, width + distance-1);
             }
         }
         //当最外层扩散圆半径达到最大半径时添加新扩散圆
@@ -100,15 +108,34 @@ public class SpreadView extends View {
             alphas.add(255);
         }
         //超过8个扩散圆，删除最先绘制的圆，即最外层的圆
-        if (spreadRadius.size() >= 8) {
+        if (spreadRadius.size() >= 4) {
             alphas.remove(0);
             spreadRadius.remove(0);
         }
         //中间的圆
         canvas.drawCircle(centerX, centerY, radius, centerPaint);
         //TODO 可以在中间圆绘制文字或者图片
-        canvas.drawText("我是你爹",centerX,centerY,centerPaint);
+        y++;
+        if(y<centerY*2){
+            canvas.drawText("我是你爹",centerX,y,TextPaint);
+        }else {
+            y=centerY;
+            canvas.drawText("我是你爹",centerX,centerY,TextPaint);
+        }
+
+
         //延迟更新，达到扩散视觉差效果
+        if(isStart){
+            postInvalidateDelayed(delayMilliseconds);
+        }
+
+    }
+
+    public void stopAnima(){
+        isStart=false;
+    }
+    public void setStart(){
+        isStart=true;
         postInvalidateDelayed(delayMilliseconds);
     }
 }

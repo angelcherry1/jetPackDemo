@@ -11,10 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c73ef40-7462-4a9d-b77d-6e0797bda482" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/SpreadView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/conslayout/LayoutActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_layout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" afterDir="false" />
@@ -25,14 +21,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/AnimationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/AnimationActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/SpreadView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/SpreadView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_animation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_animation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599731782906</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="圆圈波浪动画提交">
+      <created>1599898288262</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599898288262</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -277,7 +276,8 @@
     <MESSAGE value="room示例提交" />
     <MESSAGE value="databind示例提交" />
     <MESSAGE value="handler示例提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="handler示例提交" />
+    <MESSAGE value="圆圈波浪动画提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="圆圈波浪动画提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="551" y="177" key="#Inspections" timestamp="1599637909075">
@@ -292,46 +292,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="764" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599892683348" />
-    <state x="594" y="112" key="CommitChangelistDialog2" timestamp="1599731781761">
+    <state x="594" y="112" key="CommitChangelistDialog2" timestamp="1599898287367">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="594" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1599731781761" />
-    <state width="1875" height="159" key="GridCell.Tab.0.bottom" timestamp="1599896541681">
+    <state x="594" y="112" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1599898287367" />
+    <state width="1875" height="2" key="GridCell.Tab.0.bottom" timestamp="1599909168103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="159" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599896541681" />
-    <state width="1875" height="159" key="GridCell.Tab.0.center" timestamp="1599896541680">
+    <state width="1875" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599909168103" />
+    <state width="1875" height="2" key="GridCell.Tab.0.center" timestamp="1599909168103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="159" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599896541680" />
-    <state width="1875" height="159" key="GridCell.Tab.0.left" timestamp="1599896541680">
+    <state width="1875" height="2" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599909168103" />
+    <state width="1875" height="2" key="GridCell.Tab.0.left" timestamp="1599909168102">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="159" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599896541680" />
-    <state width="1875" height="159" key="GridCell.Tab.0.right" timestamp="1599896541680">
+    <state width="1875" height="2" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599909168102" />
+    <state width="1875" height="2" key="GridCell.Tab.0.right" timestamp="1599909168103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="159" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599896541680" />
-    <state width="1875" height="159" key="GridCell.Tab.1.bottom" timestamp="1599896545405">
+    <state width="1875" height="2" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599909168103" />
+    <state width="1875" height="159" key="GridCell.Tab.1.bottom" timestamp="1599902835717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="159" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599896545405" />
-    <state width="1875" height="159" key="GridCell.Tab.1.center" timestamp="1599896545405">
+    <state width="1875" height="159" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599902835717" />
+    <state width="1875" height="159" key="GridCell.Tab.1.center" timestamp="1599902835717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="159" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599896545405" />
-    <state width="1875" height="159" key="GridCell.Tab.1.left" timestamp="1599896545405">
+    <state width="1875" height="159" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599902835717" />
+    <state width="1875" height="159" key="GridCell.Tab.1.left" timestamp="1599902835717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="159" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599896545405" />
-    <state width="1875" height="159" key="GridCell.Tab.1.right" timestamp="1599896545405">
+    <state width="1875" height="159" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599902835717" />
+    <state width="1875" height="159" key="GridCell.Tab.1.right" timestamp="1599902835717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="159" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599896545405" />
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1599731795002">
+    <state width="1875" height="159" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599902835717" />
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1599898321508">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599731795002" />
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599898321508" />
     <state x="639" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1599876904703">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
