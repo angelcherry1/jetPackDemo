@@ -5,5 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".animationView.AnimationActivity">
-
+    <com.example.jetpackdemo.animationView.SpreadView
+        android:id="@+id/spreadView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:spread_center_color="#FF71B2"
+        app:spread_delay_milliseconds="33"
+        app:spread_distance="5"
+        app:spread_max_radius="90"
+        app:spread_radius="100"
+        app:spread_spread_color="#FF71B2" />
 </RelativeLayout>
