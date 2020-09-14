@@ -1,10 +1,14 @@
 package com.example.jetpackdemo.animationView;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 
 import android.content.res.TypedArray;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
+import android.graphics.Matrix;
 import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
@@ -34,6 +38,7 @@ public class SpreadView extends View {
     private int spreadColor;
     private Paint TextPaint; //文字
     private boolean isStart=true;
+    private Context mContext;
     public SpreadView(Context context) {
         this(context,null);
     }
@@ -47,7 +52,7 @@ public class SpreadView extends View {
 
     public SpreadView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
-
+        this.mContext=context;
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.SpreadView, defStyleAttr, 0);
         radius = a.getInt(R.styleable.SpreadView_spread_radius, radius);
         maxRadius = a.getInt(R.styleable.SpreadView_spread_max_radius, maxRadius);
@@ -85,6 +90,8 @@ public class SpreadView extends View {
         y=centerY;
     }
     private float y;
+    private boolean isFirst=true;
+    @SuppressLint("DrawAllocation")
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
