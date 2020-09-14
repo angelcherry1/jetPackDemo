@@ -11,6 +11,7 @@ import android.widget.Button;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.jetpackdemo.activity.AppBarLayoutActivity;
 import com.example.jetpackdemo.animationView.AnimationActivity;
 import com.example.jetpackdemo.conslayout.LayoutActivity;
 import com.example.jetpackdemo.dataBinding.DataBindActivity;
@@ -39,7 +40,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-    private Button btn1, btn2, btn3, btn4, btn5, btn6, btn_paixu,btn6_anima,btn6_cos;
+    private Button btn1, btn2, btn3, btn4, btn5, btn6, btn_paixu,btn6_anima,btn6_cos,btn6_shou;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
         btn4 = findViewById(R.id.btn4_room);
         btn5 = findViewById(R.id.btn5_dataBinding);
         btn6 = findViewById(R.id.btn6_dataBinding);
+        btn6_shou = findViewById(R.id.btn6_shou);
         btn_paixu = findViewById(R.id.btn_paixu);
         btn6_anima = findViewById(R.id.btn6_anima);
         btn6_cos = findViewById(R.id.btn6_cos);
@@ -107,6 +109,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), LayoutActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btn6_shou.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), AppBarLayoutActivity.class);
                 startActivity(intent);
             }
         });

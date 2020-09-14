@@ -71,6 +71,14 @@
         android:text="布局"
         />
     <Button
+        android:id="@+id/btn6_shou"
+        android:layout_marginTop="10dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="收缩"
+        />
+    <Button
         android:id="@+id/btn_paixu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
