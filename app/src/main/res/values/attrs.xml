@@ -17,4 +17,9 @@
         <attr name="spread_delay_milliseconds" format="integer" />
     </declare-styleable>
 
+    <declare-styleable name="CustomScoreBar">
+        <attr name="leftBackground" format="reference|color" />
+        <attr name="rightBackground" format="reference|color" />
+        <attr name="centerIcon" format="reference|color" />
+    </declare-styleable>
 </resources>

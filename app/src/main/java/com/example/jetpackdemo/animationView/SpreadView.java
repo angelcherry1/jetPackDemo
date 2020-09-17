@@ -56,8 +56,8 @@ public class SpreadView extends View {
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.SpreadView, defStyleAttr, 0);
         radius = a.getInt(R.styleable.SpreadView_spread_radius, radius);
         maxRadius = a.getInt(R.styleable.SpreadView_spread_max_radius, maxRadius);
-       centerColor = a.getColor(R.styleable.SpreadView_spread_center_color, ContextCompat.getColor(context, R.color.colorAccent));
-      spreadColor = a.getColor(R.styleable.SpreadView_spread_spread_color, ContextCompat.getColor(context, R.color.colorAccent));
+         centerColor = a.getColor(R.styleable.SpreadView_spread_center_color, ContextCompat.getColor(context, R.color.colorAccent));
+         spreadColor = a.getColor(R.styleable.SpreadView_spread_spread_color, ContextCompat.getColor(context, R.color.colorAccent));
         distance = a.getInt(R.styleable.SpreadView_spread_distance, distance);
         a.recycle();
         initUI();

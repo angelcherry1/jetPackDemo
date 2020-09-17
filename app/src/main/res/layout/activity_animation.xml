@@ -31,4 +31,15 @@
         android:layout_centerHorizontal="true"
         android:text="停止"
         />
+
+    <com.example.jetpackdemo.animationView.CustomScoreBar
+        android:id="@+id/csb"
+        android:layout_width="300dp"
+        android:layout_height="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        app:leftBackground="@mipmap/left"
+        app:rightBackground="@mipmap/right"
+        app:centerIcon="@mipmap/guang1"
+        />
 </RelativeLayout>
