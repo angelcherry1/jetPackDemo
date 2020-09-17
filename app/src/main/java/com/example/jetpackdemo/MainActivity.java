@@ -2,8 +2,13 @@ package com.example.jetpackdemo;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
+import android.text.SpannableString;
+import android.text.SpannableStringBuilder;
+import android.text.Spanned;
+import android.text.style.ForegroundColorSpan;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -36,6 +41,7 @@ import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;
 import java.text.Collator;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
@@ -124,19 +130,47 @@ public class MainActivity extends AppCompatActivity {
             @RequiresApi(api = Build.VERSION_CODES.KITKAT)
             @Override
             public void onClick(View v) {
-
-                City city = new Gson().fromJson(
-                        loadAddressInfoFromAssets(getBaseContext()).trim(),
-                        new TypeToken<City>() {
-                        }.getType());
-
-                List<String> mycity = city.getCities();
-                Collections.sort(mycity, Collator.getInstance(java.util.Locale.CHINA));
-                String string = getString(getBaseContext());
-                Log.i("测试", "获取的数据" + string);
+                List<Integer> stringNumAndIndex = getStringNumAndIndex("我们一起新年快乐啊,新年的年求");
+                SpannableStringBuilder ss=new SpannableStringBuilder("我们一起新年快乐啊,新年的年求");
+                for (int i=0;i<stringNumAndIndex.size();i++){
+                    SpannableStringBuilder nian=new SpannableStringBuilder("年求");
+                    ForegroundColorSpan foregroundColorSpan=new ForegroundColorSpan(Color.parseColor("#FF0000"));
+                    nian.setSpan(foregroundColorSpan,0,"年求".length(), SpannableStringBuilder.SPAN_INCLUSIVE_INCLUSIVE);
+                    ss.replace(stringNumAndIndex.get(i),stringNumAndIndex.get(i)+"年求".length(),nian);
+                }
+                btn_paixu.setText(ss);
             }
         });
     }
+
+
+
+    private List<Integer> getStringNumAndIndex(String string){
+        List<Integer> list=new ArrayList<>();
+        for (int i=0;i<string.length()-"年求".length()+1;i++){
+            String substring = string.substring(i,i+"年求".length());
+            if(substring.equals("年求")){
+                list.add(i);
+            }
+        }
+        Log.i("我是测试字符串个数和位置的",list.toString());
+      return   list;
+    }
+
+
+    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
+    private void getJsonData(Context context){
+        City city = new Gson().fromJson(
+                loadAddressInfoFromAssets(context).trim(),
+                new TypeToken<City>() {
+                }.getType());
+
+        List<String> mycity = city.getCities();
+        Collections.sort(mycity, Collator.getInstance(java.util.Locale.CHINA));
+        String string = getString(getBaseContext());
+        Log.i("测试", "获取的数据" + string);
+    }
+
 
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     private String loadAddressInfoFromAssets(Context context) {
@@ -185,16 +219,7 @@ public class MainActivity extends AppCompatActivity {
         return addressInfoBuffer.toString();
     }
 
-//    public void writeJson(List<String> citys) {
-//        File baiducCity = new File("baiducCity");
-//        try {
-//            FileWriter fileWriter = new FileWriter(baiducCity);
-//            for()
-//            fileWriter.write();
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//    }
+
     @Override
     protected void onDestroy() {
         super.onDestroy();

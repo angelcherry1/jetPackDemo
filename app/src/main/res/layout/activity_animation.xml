@@ -38,8 +38,8 @@
         android:layout_height="20dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
-        app:leftBackground="@mipmap/left"
-        app:rightBackground="@mipmap/right"
+        app:leftBackground="@mipmap/right"
+        app:rightBackground="@mipmap/left"
         app:centerIcon="@mipmap/guang1"
         />
 </RelativeLayout>
