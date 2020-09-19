@@ -23,6 +23,7 @@ import com.example.jetpackdemo.dataBinding.DataBindActivity;
 import com.example.jetpackdemo.liveData.LiveDataActivity;
 import com.example.jetpackdemo.model.City;
 import com.example.jetpackdemo.navigation.NavigationActivity;
+import com.example.jetpackdemo.recycleView.RecycleViewActivity;
 import com.example.jetpackdemo.room.RoomActivity;
 import com.example.jetpackdemo.view.ClearSreenActivity;
 import com.example.jetpackdemo.viewModel.ConstomViewModelActivity;
@@ -46,7 +47,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-    private Button btn1, btn2, btn3, btn4, btn5, btn6, btn_paixu,btn6_anima,btn6_cos,btn6_shou;
+    private Button btn1, btn2, btn3, btn4, btn5, btn6, btn_paixu,btn6_anima,btn6_cos,btn6_shou,btn6_rec;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
         btn_paixu = findViewById(R.id.btn_paixu);
         btn6_anima = findViewById(R.id.btn6_anima);
         btn6_cos = findViewById(R.id.btn6_cos);
+        btn6_rec = findViewById(R.id.btn6_rec);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -123,6 +125,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), AppBarLayoutActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btn6_rec.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), RecycleViewActivity.class);
                 startActivity(intent);
             }
         });
