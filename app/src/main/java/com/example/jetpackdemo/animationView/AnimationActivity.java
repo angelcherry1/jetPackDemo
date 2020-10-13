@@ -1,12 +1,20 @@
 package com.example.jetpackdemo.animationView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.dynamicanimation.animation.DynamicAnimation;
+import androidx.dynamicanimation.animation.SpringAnimation;
 
 import android.annotation.SuppressLint;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationSet;
+import android.view.animation.ScaleAnimation;
+import android.view.animation.TranslateAnimation;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import com.example.jetpackdemo.R;
 
@@ -14,12 +22,15 @@ public class AnimationActivity extends AppCompatActivity {
 
     private SpreadView spreadView;
     private CustomScoreBar csb;
+    private ImageView iv_red;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
          setContentView(R.layout.activity_animation);
          spreadView=findViewById(R.id.spreadView);
-        csb=findViewById(R.id.csb);
+         csb=findViewById(R.id.csb);
+        iv_red=findViewById(R.id.iv_red);
+        final ImageView  iv_red2=findViewById(R.id.iv_red2);
         Button start = findViewById(R.id.start);
         Button stop = findViewById(R.id.stop);
         csb.setScores(20,0);
@@ -28,6 +39,7 @@ public class AnimationActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 spreadView.setStart();
+                scaleAnimation(iv_red);
             }
         });
         stop.setOnClickListener(new View.OnClickListener() {
@@ -36,6 +48,8 @@ public class AnimationActivity extends AppCompatActivity {
                 spreadView.stopAnima();
             }
         });
+        final SpringAnimation springAnim = new SpringAnimation(iv_red2, DynamicAnimation.TRANSLATION_Y, 0);
+        springAnim.start();
     }
     private int a=0;
     @SuppressLint("HandlerLeak")
@@ -59,4 +73,42 @@ public class AnimationActivity extends AppCompatActivity {
             }
         }
     };
+
+    private void scaleAnimation(final View view) {
+        AnimationSet mAnimatorSet = new AnimationSet(true);
+//        TranslateAnimation moveUpAnimation = new TranslateAnimation(0F, dpToPx(300), 0, 0);
+//        moveUpAnimation.setDuration(2000);//设置动画变化的持续时间
+//        moveUpAnimation.setFillEnabled(true);//使其可以填充效果从而不回到原地
+//        moveUpAnimation.setFillAfter(true);//不回到起始位置
+//        mAnimatorSet.addAnimation(moveUpAnimation);
+
+        ScaleAnimation scaleAnimation = new ScaleAnimation(1.0f,0.0f,1.0f,0.0f,1000f,0f);
+        scaleAnimation.setDuration(2000);
+
+        mAnimatorSet.addAnimation(scaleAnimation);
+
+        view.startAnimation(mAnimatorSet);
+        mAnimatorSet.setAnimationListener(new Animation.AnimationListener() {
+            @Override
+            public void onAnimationStart(Animation animation) {
+
+            }
+
+            @Override
+            public void onAnimationEnd(Animation animation) {
+                view.setVisibility(View.GONE);
+            }
+
+            @Override
+            public void onAnimationRepeat(Animation animation) {
+
+            }
+        });
+    }
+    /**
+     * dp转换为px
+     */
+    public static int dpToPx(float dp) {
+        return (int) (dp * Resources.getSystem().getDisplayMetrics().density + 0.5f);
+    }
 }

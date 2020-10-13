@@ -79,8 +79,10 @@ public class CustomScoreBar extends View {
 
     }
 
-
+    private boolean isfirst=true;
+    private int y=0;
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
+    @SuppressLint("DrawAllocation")
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
@@ -101,25 +103,19 @@ public class CustomScoreBar extends View {
 
 
         //绘制左边进度条
-        Bitmap scaledBitmap1 = Bitmap.createScaledBitmap(left, (int)width,
-                left.getHeight(),
-                false);
-
-        Bitmap cutBitmap = Bitmap.createBitmap(scaledBitmap1,0,0, (int) leftLoft,
-                left.getHeight());
-        canvas.drawBitmap(cutBitmap, 0, (height - left.getHeight()) / 2, new Paint());
+        if(y<(int)leftLoft){
+            Bitmap scaledBitmap1 = Bitmap.createScaledBitmap(left, (int)width, left.getHeight(), false);
+            Bitmap cutBitmap = Bitmap.createBitmap(scaledBitmap1,0,0, y, left.getHeight());
+            canvas.drawBitmap(cutBitmap, 0, (height - left.getHeight()) / 2, new Paint());
+        }
+        y++;
         //绘制右边进度条
-        Bitmap scaledBitmap2 = Bitmap.createScaledBitmap(right, (int)width,
-                left.getHeight(),
-                false);
-        Bitmap cutBitmap2 = Bitmap.createBitmap(scaledBitmap2,(int)width-(int) rightLoft,0, (int) rightLoft,
-                right.getHeight());
+        Bitmap scaledBitmap2 = Bitmap.createScaledBitmap(right, (int)width, left.getHeight(), false);
+        Bitmap cutBitmap2 = Bitmap.createBitmap(scaledBitmap2,(int)width-(int) rightLoft,0, (int) rightLoft, right.getHeight());
         canvas.drawBitmap(cutBitmap2, leftLoft, (height - left.getHeight()) / 2, new Paint());
 
         //绘制中间图标
-        Bitmap scaledBitmap3 = Bitmap.createScaledBitmap(center, (int) height,
-                (int) height,
-                false);
+        Bitmap scaledBitmap3 = Bitmap.createScaledBitmap(center, (int) height, (int) height, false);
         canvas.drawBitmap(scaledBitmap3, leftLoft - height / 2, 0, new Paint());
 
 
@@ -138,6 +134,10 @@ public class CustomScoreBar extends View {
         paintText.getTextBounds(String.valueOf(mScoreRight), 0, String.valueOf(mScoreRight).length(), rect2);
         //在控件宽度的最后十分之一绘制右边的比分数字
         canvas.drawText("" + mScoreRight, width - (30+rect2.width()), height / 2 + textBaseLineOffset, paintText);
+
+        if(isfirst){
+            postInvalidateDelayed(100);
+        }
 
     }
 
