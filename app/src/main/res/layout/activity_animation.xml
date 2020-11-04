@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".animationView.AnimationActivity">
+
     <com.example.jetpackdemo.animationView.SpreadView
         android:id="@+id/spreadView"
         android:layout_width="200dp"
@@ -21,16 +22,14 @@
         android:id="@+id/start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="开始"
-        />
+        android:text="开始" />
 
-      <Button
+    <Button
         android:id="@+id/stop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:text="停止"
-        />
+        android:text="停止" />
 
     <com.example.jetpackdemo.animationView.CustomScoreBar
         android:id="@+id/csb"
@@ -38,23 +37,57 @@
         android:layout_height="20dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
-        app:leftBackground="@mipmap/right"
-        app:rightBackground="@mipmap/left"
-        app:centerIcon="@mipmap/guang1"
-        />
+        app:leftBackground="@mipmap/app_room_pk_left"
+        app:rightBackground="@mipmap/app_room_pk_right"
+        app:centerIcon="@mipmap/guang1" />
+
+    <EditText
+        android:id="@+id/left_et"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:inputType="number"
+        android:imeOptions="actionSend"
+        android:hint="左边比分"
+        android:layout_marginLeft="@dimen/dp_40"
+        android:layout_below="@+id/csb" />
+
+    <EditText
+        android:id="@+id/right_et"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:inputType="number"
+        android:hint="右边比分"
+        android:imeOptions="actionSend"
+        android:layout_below="@+id/csb"
+        android:layout_toRightOf="@+id/left_et"
+        android:layout_marginLeft="@dimen/dp_10" />
+
     <ImageView
         android:id="@+id/iv_red"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="50dp"
-        android:background="#ff0000"
-        />
+        android:background="#ff0000" />
+
     <ImageView
         android:id="@+id/iv_red2"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginTop="200dp"
-        android:background="#ff0000"
-        />
+        android:background="#ff0000" />
+
+    <com.example.jetpackdemo.animationView.FlexBoxLayout2
+        android:id="@+id/ll_add_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_i_love_you"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_40"
+        android:textColor="@color/love" />
 </RelativeLayout>

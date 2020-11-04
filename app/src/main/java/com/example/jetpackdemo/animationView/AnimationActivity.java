@@ -1,20 +1,24 @@
 package com.example.jetpackdemo.animationView;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.dynamicanimation.animation.DynamicAnimation;
-import androidx.dynamicanimation.animation.SpringAnimation;
-
 import android.annotation.SuppressLint;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.KeyEvent;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationSet;
 import android.view.animation.ScaleAnimation;
-import android.view.animation.TranslateAnimation;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.dynamicanimation.animation.DynamicAnimation;
+import androidx.dynamicanimation.animation.SpringAnimation;
 
 import com.example.jetpackdemo.R;
 
@@ -23,35 +27,68 @@ public class AnimationActivity extends AppCompatActivity {
     private SpreadView spreadView;
     private CustomScoreBar csb;
     private ImageView iv_red;
+    private FlexBoxLayout2 ll_add_view;
+    private EditText left_et, right_et;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-         setContentView(R.layout.activity_animation);
-         spreadView=findViewById(R.id.spreadView);
-         csb=findViewById(R.id.csb);
-        iv_red=findViewById(R.id.iv_red);
-        final ImageView  iv_red2=findViewById(R.id.iv_red2);
+        setContentView(R.layout.activity_animation);
+        spreadView = findViewById(R.id.spreadView);
+        csb = findViewById(R.id.csb);
+        iv_red = findViewById(R.id.iv_red);
+        left_et = findViewById(R.id.left_et);
+        right_et = findViewById(R.id.right_et);
+        ll_add_view = findViewById(R.id.ll_add_view);
+        final ImageView iv_red2 = findViewById(R.id.iv_red2);
         Button start = findViewById(R.id.start);
         Button stop = findViewById(R.id.stop);
-        csb.setScores(20,0);
-        handler.sendEmptyMessageDelayed(100,100);
+        csb.setScores(20, 20);
+
+        left_et.setOnKeyListener(new View.OnKeyListener() {
+            @Override
+            public boolean onKey(View v, int keyCode, KeyEvent event) {
+                if (keyCode == KeyEvent.KEYCODE_ENTER) {
+                    csb.setScores(Integer.parseInt(left_et.getText().toString()), Integer.parseInt(right_et.getText().toString()));
+                }
+                return false;
+            }
+        });
+        right_et.setOnKeyListener(new View.OnKeyListener() {
+            @Override
+            public boolean onKey(View v, int keyCode, KeyEvent event) {
+                if (keyCode == KeyEvent.KEYCODE_ENTER) {
+                    csb.setScores(Integer.parseInt(left_et.getText().toString()), Integer.parseInt(right_et.getText().toString()));
+                }
+                return false;
+            }
+        });
         start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 spreadView.setStart();
                 scaleAnimation(iv_red);
+                LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+                layoutParams.setMargins(10, 5, 10, 5);
+                TextView textView = new TextView(getBaseContext());
+                textView.setText("我是你爹");
+                textView.setLayoutParams(layoutParams);
+                textView.setTextSize(10);
+                ll_add_view.addView(textView);
             }
         });
         stop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 spreadView.stopAnima();
+                ll_add_view.removeAllViews();
             }
         });
         final SpringAnimation springAnim = new SpringAnimation(iv_red2, DynamicAnimation.TRANSLATION_Y, 0);
         springAnim.start();
     }
-    private int a=0;
+
+    private int a = 0;
     @SuppressLint("HandlerLeak")
     final Handler handler = new Handler() {
 
@@ -61,10 +98,10 @@ public class AnimationActivity extends AppCompatActivity {
 
             switch (msg.what) {
                 case 100:
-                    if(a<100){
+                    if (a < 100) {
                         a++;
-                        csb.setScores(20,a);
-                        handler.sendEmptyMessageDelayed(100,100);
+                        csb.setScores(20, a);
+                        handler.sendEmptyMessageDelayed(100, 100);
 
                     }
 
@@ -82,7 +119,7 @@ public class AnimationActivity extends AppCompatActivity {
 //        moveUpAnimation.setFillAfter(true);//不回到起始位置
 //        mAnimatorSet.addAnimation(moveUpAnimation);
 
-        ScaleAnimation scaleAnimation = new ScaleAnimation(1.0f,0.0f,1.0f,0.0f,1000f,0f);
+        ScaleAnimation scaleAnimation = new ScaleAnimation(1.0f, 0.0f, 1.0f, 0.0f, 1000f, 0f);
         scaleAnimation.setDuration(2000);
 
         mAnimatorSet.addAnimation(scaleAnimation);
@@ -105,6 +142,7 @@ public class AnimationActivity extends AppCompatActivity {
             }
         });
     }
+
     /**
      * dp转换为px
      */
