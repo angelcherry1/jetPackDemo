@@ -10,29 +10,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c73ef40-7462-4a9d-b77d-6e0797bda482" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/FlexBoxLayout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/FlexBoxLayout2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/app_room_pk_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/app_room_pk_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-night/attrs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-night/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-night/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-night/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/AnimationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/AnimationActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/CustomScoreBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/CustomScoreBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_animation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_animation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/guang1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/guang1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1c73ef40-7462-4a9d-b77d-6e0797bda482" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -311,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602588267395</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="进度条修改">
+      <created>1604480189979</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1604480189979</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -348,6 +333,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="551" y="177" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1599637909075" />
+    <state x="551" y="177" key="#Notifications" timestamp="1604480235651">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="551" y="177" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1604480235651" />
     <state x="476" y="251" key="#PSD" timestamp="1602644991296">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -372,10 +361,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="812" y="331" key="AndroidCreateXmlResourceDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604386182359" />
-    <state x="727" y="102" key="CommitChangelistDialog2" timestamp="1602588266542">
+    <state x="727" y="102" key="CommitChangelistDialog2" timestamp="1604480189210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="727" y="102" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602588266542" />
+    <state x="727" y="102" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1604480189210" />
     <state width="1875" height="102" key="GridCell.Tab.0.bottom" timestamp="1604459640383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -412,10 +401,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="460" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602645080792" />
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1602588274668">
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1604480222145">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602588274668" />
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604480222145" />
     <state x="758" y="296" key="chooseDestDirectoryDialog" timestamp="1604459629717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -424,6 +413,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="639" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604454813573" />
+    <state x="644" y="310" key="git4idea.merge.GitPullDialog" timestamp="1604480216388">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="644" y="310" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604480216388" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600488071406">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
