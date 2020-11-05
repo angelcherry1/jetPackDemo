@@ -5,9 +5,7 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
-import android.text.SpannableString;
 import android.text.SpannableStringBuilder;
-import android.text.Spanned;
 import android.text.style.ForegroundColorSpan;
 import android.util.Log;
 import android.view.View;
@@ -17,6 +15,7 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.jetpackdemo.activity.AppBarLayoutActivity;
+import com.example.jetpackdemo.activity.DialogActivity;
 import com.example.jetpackdemo.animationView.AnimationActivity;
 import com.example.jetpackdemo.conslayout.LayoutActivity;
 import com.example.jetpackdemo.dataBinding.DataBindActivity;
@@ -31,15 +30,9 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;
 import java.text.Collator;
 import java.util.ArrayList;
@@ -47,7 +40,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-    private Button btn1, btn2, btn3, btn4, btn5, btn6, btn_paixu,btn6_anima,btn6_cos,btn6_shou,btn6_rec;
+    private Button btn1, btn2, btn3, btn4, btn5, btn6, btn_paixu, btn6_anima, btn6_cos, btn6_shou, btn6_rec, btn6_dialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
         btn6_anima = findViewById(R.id.btn6_anima);
         btn6_cos = findViewById(R.id.btn6_cos);
         btn6_rec = findViewById(R.id.btn6_rec);
+        btn6_dialog = findViewById(R.id.btn6_dialog);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -136,17 +130,25 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        btn6_dialog.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), DialogActivity.class);
+                startActivity(intent);
+            }
+        });
         btn_paixu.setOnClickListener(new View.OnClickListener() {
             @RequiresApi(api = Build.VERSION_CODES.KITKAT)
             @Override
             public void onClick(View v) {
                 List<Integer> stringNumAndIndex = getStringNumAndIndex("我们一起新年快乐啊,新年的年求");
-                SpannableStringBuilder ss=new SpannableStringBuilder("我们一起新年快乐啊,新年的年求");
-                for (int i=0;i<stringNumAndIndex.size();i++){
-                    SpannableStringBuilder nian=new SpannableStringBuilder("年求");
-                    ForegroundColorSpan foregroundColorSpan=new ForegroundColorSpan(Color.parseColor("#FF0000"));
-                    nian.setSpan(foregroundColorSpan,0,"年求".length(), SpannableStringBuilder.SPAN_INCLUSIVE_INCLUSIVE);
-                    ss.replace(stringNumAndIndex.get(i),stringNumAndIndex.get(i)+"年求".length(),nian);
+                SpannableStringBuilder ss = new SpannableStringBuilder("我们一起新年快乐啊,新年的年求");
+                for (int i = 0; i < stringNumAndIndex.size(); i++) {
+                    SpannableStringBuilder nian = new SpannableStringBuilder("年求");
+                    ForegroundColorSpan foregroundColorSpan = new ForegroundColorSpan(Color.parseColor("#FF0000"));
+                    nian.setSpan(foregroundColorSpan, 0, "年求".length(), SpannableStringBuilder.SPAN_INCLUSIVE_INCLUSIVE);
+                    ss.replace(stringNumAndIndex.get(i), stringNumAndIndex.get(i) + "年求".length(), nian);
                 }
                 btn_paixu.setText(ss);
             }
@@ -154,22 +156,21 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
-    private List<Integer> getStringNumAndIndex(String string){
-        List<Integer> list=new ArrayList<>();
-        for (int i=0;i<string.length()-"年求".length()+1;i++){
-            String substring = string.substring(i,i+"年求".length());
-            if(substring.equals("年求")){
+    private List<Integer> getStringNumAndIndex(String string) {
+        List<Integer> list = new ArrayList<>();
+        for (int i = 0; i < string.length() - "年求".length() + 1; i++) {
+            String substring = string.substring(i, i + "年求".length());
+            if (substring.equals("年求")) {
                 list.add(i);
             }
         }
-        Log.i("我是测试字符串个数和位置的",list.toString());
-      return   list;
+        Log.i("我是测试字符串个数和位置的", list.toString());
+        return list;
     }
 
 
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
-    private void getJsonData(Context context){
+    private void getJsonData(Context context) {
         City city = new Gson().fromJson(
                 loadAddressInfoFromAssets(context).trim(),
                 new TypeToken<City>() {
@@ -210,7 +211,7 @@ public class MainActivity extends AppCompatActivity {
      * @return
      */
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
-    public  String getString(Context context ) {
+    public String getString(Context context) {
         StringBuffer addressInfoBuffer = new StringBuffer();
 
         try {

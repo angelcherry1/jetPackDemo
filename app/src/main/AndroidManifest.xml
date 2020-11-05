@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.DispatchTouchEventActivity"></activity>
+        <activity android:name=".activity.DialogActivity"></activity>
+        <activity android:name=".activity.DispatchTouchEventActivity" />
         <activity android:name=".recycleView.RecycleViewActivity" />
         <activity android:name=".activity.AppBarLayoutActivity" />
         <activity android:name=".conslayout.LayoutActivity" />
