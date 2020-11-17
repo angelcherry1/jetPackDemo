@@ -107,7 +107,6 @@ public class CustomScoreBar extends View {
             canvas.drawBitmap(cutBitmap2, leftLoft - right.getHeight() / 2, (i - (left.getHeight() / 2)) + dip2px(5), new Paint());
         }
 
-
         //绘制左边进度条
         Bitmap scaledBitmap1 = Bitmap.createScaledBitmap(left, (int) width, left.getHeight(), false);
         // 定义矩阵对象

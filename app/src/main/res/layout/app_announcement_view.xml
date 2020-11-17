@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:background="@mipmap/app_reward_information_bg"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="16dp"
+        android:background="@mipmap/app_icon_home_horn"
+        tools:ignore="ContentDescription" />
+
+    <RelativeLayout
+        android:id="@+id/rl_txt"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="9dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/tv_announcement"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="恭喜兮兮在砸金蛋中获得火箭x1"-->
+        <!--            android:textColor="#ffffffff"-->
+        <!--            android:textSize="11dp"-->
+        <!--            tools:ignore="SpUsage"-->
+        <!--            android:visibility="visible" />-->
+    </RelativeLayout>
+
+
+</LinearLayout>

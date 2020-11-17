@@ -29,6 +29,8 @@ public class AnimationActivity extends AppCompatActivity {
     private ImageView iv_red;
     private FlexBoxLayout2 ll_add_view;
     private EditText left_et, right_et;
+    private AnnouncementView avm;
+    private int conte = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +42,7 @@ public class AnimationActivity extends AppCompatActivity {
         left_et = findViewById(R.id.left_et);
         right_et = findViewById(R.id.right_et);
         ll_add_view = findViewById(R.id.ll_add_view);
+        avm = findViewById(R.id.avm);
         final ImageView iv_red2 = findViewById(R.id.iv_red2);
         Button start = findViewById(R.id.start);
         Button stop = findViewById(R.id.stop);
@@ -63,6 +66,7 @@ public class AnimationActivity extends AppCompatActivity {
                 return false;
             }
         });
+
         start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -75,6 +79,9 @@ public class AnimationActivity extends AppCompatActivity {
                 textView.setLayoutParams(layoutParams);
                 textView.setTextSize(10);
                 ll_add_view.addView(textView);
+                avm.setVisibility(View.VISIBLE);
+                conte++;
+                avm.setMessage("兮兮", "女神来了", "火箭x" + conte);
             }
         });
         stop.setOnClickListener(new View.OnClickListener() {
@@ -84,6 +91,7 @@ public class AnimationActivity extends AppCompatActivity {
                 ll_add_view.removeAllViews();
             }
         });
+
         final SpringAnimation springAnim = new SpringAnimation(iv_red2, DynamicAnimation.TRANSLATION_Y, 0);
         springAnim.start();
     }

@@ -18,6 +18,13 @@
         app:spread_radius="150"
         app:spread_spread_color="#FF71B2" />
 
+    <com.example.jetpackdemo.animationView.AnnouncementView
+        android:id="@+id/avm"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="60dp"
+        android:visibility="invisible" />
+
     <Button
         android:id="@+id/start"
         android:layout_width="wrap_content"

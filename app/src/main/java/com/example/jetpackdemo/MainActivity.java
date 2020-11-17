@@ -6,7 +6,9 @@ import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.text.SpannableStringBuilder;
+import android.text.Spanned;
 import android.text.style.ForegroundColorSpan;
+import android.text.style.StyleSpan;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -142,15 +144,8 @@ public class MainActivity extends AppCompatActivity {
             @RequiresApi(api = Build.VERSION_CODES.KITKAT)
             @Override
             public void onClick(View v) {
-                List<Integer> stringNumAndIndex = getStringNumAndIndex("我们一起新年快乐啊,新年的年求");
-                SpannableStringBuilder ss = new SpannableStringBuilder("我们一起新年快乐啊,新年的年求");
-                for (int i = 0; i < stringNumAndIndex.size(); i++) {
-                    SpannableStringBuilder nian = new SpannableStringBuilder("年求");
-                    ForegroundColorSpan foregroundColorSpan = new ForegroundColorSpan(Color.parseColor("#FF0000"));
-                    nian.setSpan(foregroundColorSpan, 0, "年求".length(), SpannableStringBuilder.SPAN_INCLUSIVE_INCLUSIVE);
-                    ss.replace(stringNumAndIndex.get(i), stringNumAndIndex.get(i) + "年求".length(), nian);
-                }
-                btn_paixu.setText(ss);
+                SpannableStringBuilder spannableStringBuilder = setEggInformation("兮兮", "女神来了", "火箭x1");
+                btn_paixu.setText(spannableStringBuilder);
             }
         });
     }
@@ -230,6 +225,31 @@ public class MainActivity extends AppCompatActivity {
         return addressInfoBuffer.toString();
     }
 
+    public SpannableStringBuilder setEggInformation(String userName, String roomName, String giftText) {
+        String txt = "恭喜" + userName + "在" + roomName + "的房间中砸出了" + giftText;
+        SpannableStringBuilder ss = new SpannableStringBuilder(txt);
+        ss.setSpan(new StyleSpan(android.graphics.Typeface.BOLD), txt.indexOf(userName), txt.indexOf(userName) + userName.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        ss.setSpan(new ForegroundColorSpan(Color.parseColor("#FFFC00")), txt.indexOf(userName), txt.indexOf(userName) + userName.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+
+        ss.setSpan(new StyleSpan(android.graphics.Typeface.BOLD), txt.indexOf(roomName), txt.indexOf(roomName) + userName.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        ss.setSpan(new ForegroundColorSpan(Color.parseColor("#07FFEC")), txt.indexOf(roomName), txt.indexOf(roomName) + roomName.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+
+        ss.setSpan(new StyleSpan(android.graphics.Typeface.BOLD), txt.indexOf(giftText), txt.indexOf(giftText) + giftText.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        ss.setSpan(new ForegroundColorSpan(Color.parseColor("#3FFF6C")), txt.indexOf(giftText), txt.indexOf(giftText) + giftText.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        return ss;
+    }
+
+    private void Spannable() {
+        List<Integer> stringNumAndIndex = getStringNumAndIndex("我们一起新年快乐啊,新年的年求");
+        SpannableStringBuilder ss = new SpannableStringBuilder("我们一起新年快乐啊,新年的年求");
+        for (int i = 0; i < stringNumAndIndex.size(); i++) {
+            SpannableStringBuilder nian = new SpannableStringBuilder("年求");
+            ForegroundColorSpan foregroundColorSpan = new ForegroundColorSpan(Color.parseColor("#FF0000"));
+            nian.setSpan(foregroundColorSpan, 0, "年求".length(), SpannableStringBuilder.SPAN_INCLUSIVE_INCLUSIVE);
+            ss.replace(stringNumAndIndex.get(i), stringNumAndIndex.get(i) + "年求".length(), nian);
+        }
+
+    }
 
     @Override
     protected void onDestroy() {
