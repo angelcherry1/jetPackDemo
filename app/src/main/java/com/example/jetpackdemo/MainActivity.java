@@ -28,6 +28,7 @@ import com.example.jetpackdemo.recycleView.RecycleViewActivity;
 import com.example.jetpackdemo.room.RoomActivity;
 import com.example.jetpackdemo.view.ClearSreenActivity;
 import com.example.jetpackdemo.viewModel.ConstomViewModelActivity;
+import com.example.jetpackdemo.viewPager.ViewPagerActivity;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -42,7 +43,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-    private Button btn1, btn2, btn3, btn4, btn5, btn6, btn_paixu, btn6_anima, btn6_cos, btn6_shou, btn6_rec, btn6_dialog;
+    private Button btn1, btn2, btn3, btn4, btn5, btn6, btn_paixu, btn6_anima, btn6_cos, btn6_shou, btn6_rec, btn6_dialog, btn6_view_pager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
         btn6_cos = findViewById(R.id.btn6_cos);
         btn6_rec = findViewById(R.id.btn6_rec);
         btn6_dialog = findViewById(R.id.btn6_dialog);
+        btn6_view_pager = findViewById(R.id.btn6_view_pager);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -146,6 +148,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 SpannableStringBuilder spannableStringBuilder = setEggInformation("兮兮", "女神来了", "火箭x1");
                 btn_paixu.setText(spannableStringBuilder);
+            }
+        });
+        btn6_view_pager.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), ViewPagerActivity.class);
+                startActivity(intent);
             }
         });
     }

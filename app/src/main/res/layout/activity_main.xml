@@ -106,6 +106,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="弹窗" />
+
+            <Button
+                android:id="@+id/btn6_view_pager"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="view_pager" />
         </LinearLayout>
 
     </ScrollView>

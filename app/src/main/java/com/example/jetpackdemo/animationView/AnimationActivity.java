@@ -12,6 +12,7 @@ import android.view.animation.AnimationSet;
 import android.view.animation.ScaleAnimation;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.HorizontalScrollView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -30,6 +31,7 @@ public class AnimationActivity extends AppCompatActivity {
     private FlexBoxLayout2 ll_add_view;
     private EditText left_et, right_et;
     private AnnouncementView avm;
+    private HorizontalScrollView hsv;
     private int conte = 1;
 
     @Override
@@ -43,6 +45,7 @@ public class AnimationActivity extends AppCompatActivity {
         right_et = findViewById(R.id.right_et);
         ll_add_view = findViewById(R.id.ll_add_view);
         avm = findViewById(R.id.avm);
+        hsv = findViewById(R.id.hsv);
         final ImageView iv_red2 = findViewById(R.id.iv_red2);
         Button start = findViewById(R.id.start);
         Button stop = findViewById(R.id.stop);
@@ -157,4 +160,10 @@ public class AnimationActivity extends AppCompatActivity {
     public static int dpToPx(float dp) {
         return (int) (dp * Resources.getSystem().getDisplayMetrics().density + 0.5f);
     }
+
+
+    private void hscorller() {
+        hsv.smoothScrollTo(0, 0);
+    }
+
 }
