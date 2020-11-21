@@ -11,57 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c73ef40-7462-4a9d-b77d-6e0797bda482" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/pageturn/PageTurnActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPagerCurl/CurlActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPagerCurl/CurlMesh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPagerCurl/CurlPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPagerCurl/CurlRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPagerCurl/CurlView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pageturn/PageTurnActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pageturn/bean/MyPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/pageturn/bean/MyPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pageturn/factory/PageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/pageturn/factory/PageFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pageturn/factory/PicturesPageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/pageturn/factory/PicturesPageFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pageturn/utils/BitmapUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/pageturn/utils/BitmapUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pageturn/utils/ScreenUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/pageturn/utils/ScreenUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pageturn/utils/ViewUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/pageturn/utils/ViewUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pageturn/view/BookPageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/pageturn/view/BookPageView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pageturn/view/CoverPageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/pageturn/view/CoverPageView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/viewPager/ViewItemFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager/ViewItemFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/viewPager/ViewPagerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager/ViewPagerActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/viewPager/indector/CommonNavigator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager/indector/CommonNavigator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/viewPager/indector/CommonNavigatorAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager/indector/CommonNavigatorAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/viewPager/indector/FragmentContainerHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager/indector/FragmentContainerHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/viewPager/indector/LinePagerIndicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager/indector/LinePagerIndicator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/viewPager/indector/MagicIndicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager/indector/MagicIndicator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/viewPager/indector/NavigatorHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager/indector/NavigatorHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/viewPager/indector/ViewPagerHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager/indector/ViewPagerHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/viewPager/indector/interfaceIndector/IMeasurablePagerTitleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager/indector/interfaceIndector/IMeasurablePagerTitleView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/viewPager/indector/interfaceIndector/IPagerIndicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager/indector/interfaceIndector/IPagerIndicator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/viewPager/indector/interfaceIndector/IPagerNavigator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager/indector/interfaceIndector/IPagerNavigator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/viewPager/indector/interfaceIndector/IPagerTitleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager/indector/interfaceIndector/IPagerTitleView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/viewPager/indector/interfaceIndector/ScrollState.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager/indector/interfaceIndector/ScrollState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/viewPager/indector/model/PositionData.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager/indector/model/PositionData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/viewPager/indector/title/ColorFlipPagerTitleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager/indector/title/ColorFlipPagerTitleView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/viewPager/indector/title/SimplePagerTitleView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager/indector/title/SimplePagerTitleView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/viewPager/indector/uitils/ArgbEvaluatorHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager/indector/uitils/ArgbEvaluatorHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/viewPager/indector/uitils/UIUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager/indector/uitils/UIUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_page_turn.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_page_turn.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_view_pager.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_view_pager.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_view_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_view_item.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,12 +74,18 @@
     <key name="android.template.404325236">
       <recent name="com.example.jetpackdemo.animationView" />
     </key>
-    <key name="android.template.-720171849">
-      <recent name="com.example.jetpackdemo" />
-    </key>
     <key name="android.template.835071322">
       <recent name="com.example.jetpackdemo.activity" />
       <recent name="com.example.jetpackdemo.recycleView" />
+    </key>
+    <key name="android.template.-720171849">
+      <recent name="com.example.jetpackdemo" />
+    </key>
+    <key name="android.template.-1672235800">
+      <recent name="com.example.jetpackdemo.viewPager" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Android\AndroidProject\jetPackDemo\app\assets" />
     </key>
     <key name="android.template.packageName">
       <recent name="com.example.jetpackdemo.view" />
@@ -138,18 +94,12 @@
       <recent name="com.example.jetpackdemo.navigation" />
       <recent name="com.example.jetpackdemo.liveData" />
     </key>
-    <key name="android.template.-1672235800">
-      <recent name="com.example.jetpackdemo.viewPager" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Android\AndroidProject\jetPackDemo\app\assets" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\java\com\example\jetpackdemo\pagerMore\viewPagerCurl" />
       <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\java\com\example\jetpackdemo" />
       <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\res\layout" />
       <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\res\mipmap-xxhdpi" />
       <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\res" />
-      <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\res\mipmap-hdpi" />
     </key>
     <key name="android.template.2028481177">
       <recent name="com.example.jetpackdemo.conslayout" />
@@ -407,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605946726682</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="viewPager仿书籍翻页">
+      <created>1605953383725</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1605953383725</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -441,7 +398,8 @@
     <MESSAGE value="粘性scroll" />
     <MESSAGE value="增加fragment指示器" />
     <MESSAGE value="仿书籍翻页" />
-    <option name="LAST_COMMIT_MESSAGE" value="仿书籍翻页" />
+    <MESSAGE value="viewPager仿书籍翻页" />
+    <option name="LAST_COMMIT_MESSAGE" value="viewPager仿书籍翻页" />
   </component>
   <component name="WindowStateProjectService">
     <state x="551" y="177" key="#Inspections" timestamp="1599637909075">
@@ -480,26 +438,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="812" y="331" key="AndroidCreateXmlResourceDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605839572014" />
-    <state x="727" y="102" key="CommitChangelistDialog2" timestamp="1605946725518">
+    <state x="523" y="102" key="CommitChangelistDialog2" timestamp="1605953382348">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="727" y="102" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605946725518" />
-    <state width="1875" height="158" key="GridCell.Tab.0.bottom" timestamp="1605950480230">
+    <state x="523" y="102" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605953382348" />
+    <state width="1875" height="866" key="GridCell.Tab.0.bottom" timestamp="1605953970655">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="158" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605950480230" />
-    <state width="1875" height="158" key="GridCell.Tab.0.center" timestamp="1605950480230">
+    <state width="1875" height="866" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605953970655" />
+    <state width="1875" height="866" key="GridCell.Tab.0.center" timestamp="1605953970655">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="158" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605950480230" />
-    <state width="1875" height="158" key="GridCell.Tab.0.left" timestamp="1605950480230">
+    <state width="1875" height="866" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605953970655" />
+    <state width="1875" height="866" key="GridCell.Tab.0.left" timestamp="1605953970655">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="158" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605950480230" />
-    <state width="1875" height="158" key="GridCell.Tab.0.right" timestamp="1605950480230">
+    <state width="1875" height="866" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605953970655" />
+    <state width="1875" height="866" key="GridCell.Tab.0.right" timestamp="1605953970655">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="158" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605950480230" />
+    <state width="1875" height="866" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605953970655" />
     <state width="1875" height="209" key="GridCell.Tab.1.bottom" timestamp="1604575497133">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -524,10 +482,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="460" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602645080792" />
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605946732646">
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605953405402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605946732646" />
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605953405402" />
     <state x="758" y="296" key="chooseDestDirectoryDialog" timestamp="1605063887552">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
