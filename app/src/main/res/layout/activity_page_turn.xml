@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".pageturn.PageTurnActivity">
+    tools:context=".pagerMore.pageturn.PageTurnActivity">
 
-    <com.example.jetpackdemo.pageturn.view.CoverPageView
+    <com.example.jetpackdemo.pagerMore.pageturn.view.BookPageView
         android:id="@+id/cpv"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

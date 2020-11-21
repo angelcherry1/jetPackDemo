@@ -9,8 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".pageturn.PageTurnActivity"></activity>
-        <activity android:name=".viewPager.ViewPagerActivity" />
+        <activity android:name=".pagerMore.pageturn.PageTurnActivity"></activity>
+        <activity android:name=".pagerMore.viewPager.ViewPagerActivity" />
         <activity android:name=".activity.DialogActivity" />
         <activity android:name=".activity.DispatchTouchEventActivity" />
         <activity android:name=".recycleView.RecycleViewActivity" />

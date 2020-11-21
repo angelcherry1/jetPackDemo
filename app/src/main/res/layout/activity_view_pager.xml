@@ -4,9 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".viewPager.ViewPagerActivity">
+    tools:context=".pagerMore.viewPager.ViewPagerActivity">
 
-    <com.example.jetpackdemo.viewPager.indector.MagicIndicator
+    <com.example.jetpackdemo.pagerMore.viewPager.indector.MagicIndicator
         android:id="@+id/magic_indicator7"
         android:layout_width="match_parent"
         android:layout_height="45dp"

@@ -24,12 +24,12 @@ import com.example.jetpackdemo.dataBinding.DataBindActivity;
 import com.example.jetpackdemo.liveData.LiveDataActivity;
 import com.example.jetpackdemo.model.City;
 import com.example.jetpackdemo.navigation.NavigationActivity;
-import com.example.jetpackdemo.pageturn.PageTurnActivity;
+import com.example.jetpackdemo.pagerMore.pageturn.PageTurnActivity;
+import com.example.jetpackdemo.pagerMore.viewPager.ViewPagerActivity;
 import com.example.jetpackdemo.recycleView.RecycleViewActivity;
 import com.example.jetpackdemo.room.RoomActivity;
 import com.example.jetpackdemo.view.ClearSreenActivity;
 import com.example.jetpackdemo.viewModel.ConstomViewModelActivity;
-import com.example.jetpackdemo.viewPager.ViewPagerActivity;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
