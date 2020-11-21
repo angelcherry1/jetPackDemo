@@ -113,6 +113,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="view_pager" />
+
+            <Button
+                android:id="@+id/btn6_book_pager"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="翻页效果" />
         </LinearLayout>
 
     </ScrollView>

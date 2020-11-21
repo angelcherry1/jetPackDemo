@@ -24,6 +24,7 @@ import com.example.jetpackdemo.dataBinding.DataBindActivity;
 import com.example.jetpackdemo.liveData.LiveDataActivity;
 import com.example.jetpackdemo.model.City;
 import com.example.jetpackdemo.navigation.NavigationActivity;
+import com.example.jetpackdemo.pageturn.PageTurnActivity;
 import com.example.jetpackdemo.recycleView.RecycleViewActivity;
 import com.example.jetpackdemo.room.RoomActivity;
 import com.example.jetpackdemo.view.ClearSreenActivity;
@@ -43,7 +44,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-    private Button btn1, btn2, btn3, btn4, btn5, btn6, btn_paixu, btn6_anima, btn6_cos, btn6_shou, btn6_rec, btn6_dialog, btn6_view_pager;
+    private Button btn1, btn2, btn3, btn4, btn5, btn6, btn_paixu, btn6_anima, btn6_cos, btn6_shou, btn6_rec, btn6_dialog, btn6_view_pager, btn6_book_pager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
         btn6_rec = findViewById(R.id.btn6_rec);
         btn6_dialog = findViewById(R.id.btn6_dialog);
         btn6_view_pager = findViewById(R.id.btn6_view_pager);
+        btn6_book_pager = findViewById(R.id.btn6_book_pager);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -154,6 +156,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), ViewPagerActivity.class);
+                startActivity(intent);
+            }
+        });
+        btn6_book_pager.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), PageTurnActivity.class);
                 startActivity(intent);
             }
         });

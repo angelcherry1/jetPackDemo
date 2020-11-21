@@ -1,5 +1,6 @@
 package com.example.jetpackdemo.animationView;
 
+import android.animation.ObjectAnimator;
 import android.annotation.SuppressLint;
 import android.content.res.Resources;
 import android.os.Bundle;
@@ -49,8 +50,22 @@ public class AnimationActivity extends AppCompatActivity {
         final ImageView iv_red2 = findViewById(R.id.iv_red2);
         Button start = findViewById(R.id.start);
         Button stop = findViewById(R.id.stop);
-        csb.setScores(20, 20);
 
+
+        final Button tanli = findViewById(R.id.tanli);
+        ObjectAnimator textEnterAnim = ObjectAnimator.ofFloat(tanli, "translationY", 0f, 200.0f);
+        textEnterAnim.setDuration(2000);
+        final SpringAnimation springAnim = new SpringAnimation(tanli, DynamicAnimation.TRANSLATION_Y, 10.0f);
+        springAnim.setMaxValue(300f);
+        tanli.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                springAnim.start();
+            }
+        });
+
+
+        csb.setScores(20, 20);
         left_et.setOnKeyListener(new View.OnKeyListener() {
             @Override
             public boolean onKey(View v, int keyCode, KeyEvent event) {
@@ -95,8 +110,7 @@ public class AnimationActivity extends AppCompatActivity {
             }
         });
 
-        final SpringAnimation springAnim = new SpringAnimation(iv_red2, DynamicAnimation.TRANSLATION_Y, 0);
-        springAnim.start();
+
     }
 
     private int a = 0;
