@@ -140,7 +140,7 @@ public class CurlView extends GLSurfaceView implements View.OnTouchListener,
     @Override
     public void onDrawFrame() {
         // We are not animating.
-        if (mAnimate == false) {
+        if (!mAnimate) {
             return;
         }
 

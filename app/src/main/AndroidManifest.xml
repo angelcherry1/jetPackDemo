@@ -23,6 +23,7 @@
         <activity android:name=".navigation.NavigationActivity" />
         <activity android:name=".liveData.LiveDataActivity" />
         <activity android:name=".viewModel.ConstomViewModelActivity" />
+        <activity android:name=".pagerMore.viewPagerCurl.CurlActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

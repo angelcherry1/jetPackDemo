@@ -11,7 +11,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c73ef40-7462-4a9d-b77d-6e0797bda482" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/view/MarqueeTextView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/obama.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/road_rage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/taipei_101.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/world.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_curl_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager/indector/LinePagerIndicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager/indector/LinePagerIndicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPagerCurl/CurlActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPagerCurl/CurlActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPagerCurl/CurlView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPagerCurl/CurlView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/view/ClearSreenActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/view/ClearSreenActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_clear_sreen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_clear_sreen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,11 +86,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="DLS4C20416001784" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-11-21T09:27:51.840Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-11-24T09:47:06.298Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPagerCurl" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -88,18 +115,18 @@
       <recent name="E:\Android\AndroidProject\jetPackDemo\app\assets" />
     </key>
     <key name="android.template.packageName">
+      <recent name="com.example.jetpackdemo.pagerMore" />
       <recent name="com.example.jetpackdemo.view" />
       <recent name="com.example.jetpackdemo.dataBinding" />
       <recent name="com.example.jetpackdemo.room" />
       <recent name="com.example.jetpackdemo.navigation" />
-      <recent name="com.example.jetpackdemo.liveData" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\res\drawable" />
+      <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\res\layout" />
       <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\java\com\example\jetpackdemo\pagerMore\viewPagerCurl" />
       <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\java\com\example\jetpackdemo" />
-      <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\res\layout" />
       <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\res\mipmap-xxhdpi" />
-      <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\res" />
     </key>
     <key name="android.template.2028481177">
       <recent name="com.example.jetpackdemo.conslayout" />
@@ -364,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605953383725</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="viewPager仿书籍翻页">
+      <created>1605956174160</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1605956174160</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -422,10 +456,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="713" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1599016003996" />
-    <state x="764" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1605841275084">
+    <state x="764" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1606210210412">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="764" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1605841275084" />
+    <state x="764" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1606210210412" />
     <state x="513" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1605953203309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -438,42 +472,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="812" y="331" key="AndroidCreateXmlResourceDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605839572014" />
-    <state x="523" y="102" key="CommitChangelistDialog2" timestamp="1605953382348">
+    <state x="523" y="102" key="CommitChangelistDialog2" timestamp="1605956173541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="523" y="102" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605953382348" />
-    <state width="1875" height="866" key="GridCell.Tab.0.bottom" timestamp="1605953970655">
+    <state x="523" y="102" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605956173541" />
+    <state width="1875" height="130" key="GridCell.Tab.0.bottom" timestamp="1606216279590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="866" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605953970655" />
-    <state width="1875" height="866" key="GridCell.Tab.0.center" timestamp="1605953970655">
+    <state width="1875" height="130" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606216279590" />
+    <state width="1875" height="130" key="GridCell.Tab.0.center" timestamp="1606216279589">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="866" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605953970655" />
-    <state width="1875" height="866" key="GridCell.Tab.0.left" timestamp="1605953970655">
+    <state width="1875" height="130" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606216279589" />
+    <state width="1875" height="130" key="GridCell.Tab.0.left" timestamp="1606216279589">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="866" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605953970655" />
-    <state width="1875" height="866" key="GridCell.Tab.0.right" timestamp="1605953970655">
+    <state width="1875" height="130" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606216279589" />
+    <state width="1875" height="130" key="GridCell.Tab.0.right" timestamp="1606216279589">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="866" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605953970655" />
-    <state width="1875" height="209" key="GridCell.Tab.1.bottom" timestamp="1604575497133">
+    <state width="1875" height="130" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606216279589" />
+    <state width="1875" height="130" key="GridCell.Tab.1.bottom" timestamp="1606216279590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="209" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604575497133" />
-    <state width="1875" height="209" key="GridCell.Tab.1.center" timestamp="1604575497132">
+    <state width="1875" height="130" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606216279590" />
+    <state width="1875" height="130" key="GridCell.Tab.1.center" timestamp="1606216279590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="209" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604575497132" />
-    <state width="1875" height="209" key="GridCell.Tab.1.left" timestamp="1604575497131">
+    <state width="1875" height="130" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606216279590" />
+    <state width="1875" height="130" key="GridCell.Tab.1.left" timestamp="1606216279590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="209" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604575497131" />
-    <state width="1875" height="209" key="GridCell.Tab.1.right" timestamp="1604575497133">
+    <state width="1875" height="130" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606216279590" />
+    <state width="1875" height="130" key="GridCell.Tab.1.right" timestamp="1606216279590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="209" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604575497133" />
+    <state width="1875" height="130" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606216279590" />
+    <state x="539" y="262" key="IDE.errors.dialog" timestamp="1606442949487">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="262" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606442949487" />
     <state x="599" y="216" key="NewModule_or_Project.wizard" timestamp="1605953059898">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -482,18 +520,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="460" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602645080792" />
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605953405402">
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605957544739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605953405402" />
-    <state x="758" y="296" key="chooseDestDirectoryDialog" timestamp="1605063887552">
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605957544739" />
+    <state x="758" y="296" key="chooseDestDirectoryDialog" timestamp="1606444981234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="758" y="296" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605063887552" />
-    <state x="639" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1605665125227">
+    <state x="758" y="296" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606444981234" />
+    <state x="639" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1606442717308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="639" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605665125227" />
+    <state x="639" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606442717308" />
     <state x="644" y="310" key="git4idea.merge.GitPullDialog" timestamp="1604480216388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

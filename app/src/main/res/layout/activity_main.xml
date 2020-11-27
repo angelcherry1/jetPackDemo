@@ -120,6 +120,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="翻页效果" />
+
+            <Button
+                android:id="@+id/btn6_book_pager_curl"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="翻页效果Curl" />
         </LinearLayout>
 
     </ScrollView>

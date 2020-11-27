@@ -3,8 +3,10 @@ package com.example.jetpackdemo.pagerMore.viewPager.indector;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
+import android.graphics.LinearGradient;
 import android.graphics.Paint;
 import android.graphics.RectF;
+import android.graphics.Shader;
 import android.view.View;
 import android.view.animation.Interpolator;
 import android.view.animation.LinearInterpolator;
@@ -67,20 +69,10 @@ public class LinePagerIndicator extends View implements IPagerIndicator {
         if (mPositionDataList == null || mPositionDataList.isEmpty()) {
             return;
         }
-
-        // 计算颜色
-        if (mColors != null && mColors.size() > 0) {
-            int currentColor = mColors.get(Math.abs(position) % mColors.size());
-            int nextColor = mColors.get(Math.abs(position + 1) % mColors.size());
-            int color = ArgbEvaluatorHolder.eval(positionOffset, Color.parseColor("#FF9EF2"), Color.parseColor("#675CFF"));
-//            LinearGradient mLinearGradient = new LinearGradient(0, 0, UIUtil.dip2px(getContext(), 60), 0, Color.parseColor("#FF9EF2"), Color.parseColor("#675CFF"), Shader.TileMode.CLAMP);
-//            mPaint.setShader(mLinearGradient);
-            mPaint.setColor(color);
-        }
-
         // 计算锚点位置
         PositionData current = FragmentContainerHelper.getImitativePositionData(mPositionDataList, position);
         PositionData next = FragmentContainerHelper.getImitativePositionData(mPositionDataList, position + 1);
+
 
         float leftX;
         float nextLeftX;
@@ -107,6 +99,17 @@ public class LinePagerIndicator extends View implements IPagerIndicator {
         mLineRect.right = rightX + (nextRightX - rightX) * mEndInterpolator.getInterpolation(positionOffset);
         mLineRect.top = getHeight() - mLineHeight - mYOffset;
         mLineRect.bottom = getHeight() - mYOffset;
+
+
+        // 计算颜色
+        if (mColors != null && mColors.size() > 0) {
+            int currentColor = mColors.get(Math.abs(position) % mColors.size());
+            int nextColor = mColors.get(Math.abs(position + 1) % mColors.size());
+            int color = ArgbEvaluatorHolder.eval(positionOffset, Color.parseColor("#FF9EF2"), Color.parseColor("#675CFF"));
+            LinearGradient mLinearGradient = new LinearGradient(mLineRect.left, 0, mLineRect.right, 0, Color.parseColor("#FF9EF2"), Color.parseColor("#675CFF"), Shader.TileMode.CLAMP);
+            mPaint.setShader(mLinearGradient);
+//            mPaint.setColor(color);
+        }
 
         invalidate();
     }
