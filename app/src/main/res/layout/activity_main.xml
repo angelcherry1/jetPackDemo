@@ -127,6 +127,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="翻页效果Curl" />
+
+            <Button
+                android:id="@+id/btn6_web"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="web" />
         </LinearLayout>
 
     </ScrollView>
