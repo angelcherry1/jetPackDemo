@@ -31,7 +31,7 @@
 
         <TextView
             android:id="@+id/tv_androidcalljsargs"
-            android:layout_width="170dp"
+            android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:text="Android调用Js并传参数"
             android:background="@drawable/roundsmall_bggreen"
