@@ -12,6 +12,12 @@
                  document.getElementById("showmsg").innerHTML = (arg);
             }
 
+            function showA(){
+          window.android.jsCallAndroid();
+            }
+
+
+
 
     </script>
 </head>
@@ -25,6 +31,7 @@
 
 <input type="button" value="Js调用Java代码并传参数"
        onclick="window.android.jsCallAndroidArgs('Js我是你爸爸')"/>
+<input type="button" value="方法" onclick="showA()">
 
 </body>
 </html>
