@@ -126,7 +126,7 @@ public class CurlView extends GLSurfaceView implements View.OnTouchListener,
         setRenderer(mRenderer);
         setRenderMode(GLSurfaceView.RENDERMODE_WHEN_DIRTY);
         setOnTouchListener(this);
-
+//        setEGLContextClientVersion(2);
         // Even though left and right pages are static we have to allocate room
         // for curl on them too as we are switching meshes. Another way would be
         // to swap texture ids only.
