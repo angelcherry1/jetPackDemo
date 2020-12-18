@@ -11,11 +11,12 @@ import com.chad.library.adapter.base.viewholder.BaseViewHolder;
 
 public class CustomItemochCallBack extends ItemTouchHelper.Callback {
 
-    private BaseQuickAdapter<String, BaseViewHolder> mAdapter;
+    private BaseQuickAdapter<PhoneDto, BaseViewHolder> mAdapter;
 
-    public CustomItemochCallBack(BaseQuickAdapter<String, BaseViewHolder> mAdapter){
-        this.mAdapter=mAdapter;
+    public CustomItemochCallBack(BaseQuickAdapter<PhoneDto, BaseViewHolder> mAdapter) {
+        this.mAdapter = mAdapter;
     }
+
     @Override
     public int getMovementFlags(@NonNull RecyclerView recyclerView, @NonNull RecyclerView.ViewHolder viewHolder) {
         // 上下拖动
@@ -29,7 +30,7 @@ public class CustomItemochCallBack extends ItemTouchHelper.Callback {
     public boolean onMove(@NonNull RecyclerView recyclerView, @NonNull RecyclerView.ViewHolder viewHolder, @NonNull RecyclerView.ViewHolder target) {
         // 交换在数据源中相应数据源的位置
 //        return mItemTouchStatus.onItemMove(viewHolder.getAdapterPosition(), target.getAdapterPosition());
-        mAdapter.notifyItemMoved(viewHolder.getAdapterPosition(),target.getAdapterPosition());
+        mAdapter.notifyItemMoved(viewHolder.getAdapterPosition(), target.getAdapterPosition());
         return true;
     }
 

@@ -32,4 +32,23 @@
         <attr name="stuckShadowHeight" format="dimension" />
         <attr name="stuckShadowDrawable" format="reference" />
     </declare-styleable>
+
+    <declare-styleable name="zface_round_progressBar">
+        <attr name="zface_round_progressBar_zface_round_color" format="color" />
+        <attr name="zface_round_progressBar_zface_round_progress_color" format="color" />
+        <attr name="zface_round_progressBar_zface_text_color" format="color" />
+        <attr name="zface_round_progressBar_zface_text_size" format="dimension" />
+        <attr name="zface_round_progressBar_zface_round_width" format="dimension" />
+        <attr name="zface_round_progressBar_zface_max" format="dimension" />
+        <attr name="zface_round_progressBar_zface_text_is_displayable" format="boolean" />
+        <attr name="zface_round_progressBar_zface_style" format="reference" />
+        <attr name="zface_round_progressBar_zface_progress_shader" format="boolean" />
+        <attr name="zface_round_progressBar_zface_color_bg_width" format="dimension" />
+        <attr name="zface_round_progressBar_zface_gradient_color_start" format="color" />
+        <attr name="zface_round_progressBar_zface_gradient_color_end" format="color" />
+        <attr name="zface_round_progressBar_zface_start_angle" format="integer" />
+        <attr name="zface_round_progressBar_zface_end_angle" format="integer" />
+        <attr name="zface_round_progressBar_zface_background_color" format="color" />
+
+    </declare-styleable>
 </resources>
