@@ -2,9 +2,15 @@ package com.example.jetpackdemo.animationView;
 
 import android.animation.ObjectAnimator;
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.content.res.Resources;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Handler;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -30,7 +36,8 @@ public class AnimationActivity extends AppCompatActivity {
     private CustomScoreBar csb;
     private ImageView iv_red;
     private FlexBoxLayout2 ll_add_view;
-    private EditText left_et, right_et;
+    private EditText left_et, right_et, input;
+    private TextView tv_9;
     private AnnouncementView avm;
     private HorizontalScrollView hsv;
     private int conte = 1;
@@ -47,11 +54,31 @@ public class AnimationActivity extends AppCompatActivity {
         ll_add_view = findViewById(R.id.ll_add_view);
         avm = findViewById(R.id.avm);
         hsv = findViewById(R.id.hsv);
+        tv_9 = findViewById(R.id.tv_9);
+        input = findViewById(R.id.input);
+        ImageView iv_image = findViewById(R.id.iv_image);
         final ImageView iv_red2 = findViewById(R.id.iv_red2);
         Button start = findViewById(R.id.start);
         Button stop = findViewById(R.id.stop);
 
+        tv_9.setBackground(createNinePatch(this));
+        iv_image.setImageDrawable(createNinePatch(this));
+        input.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+                tv_9.setText(s);
+            }
+        });
         final Button tanli = findViewById(R.id.tanli);
         ObjectAnimator textEnterAnim = ObjectAnimator.ofFloat(tanli, "translationY", 0f, 200.0f);
         textEnterAnim.setDuration(2000);
@@ -135,6 +162,18 @@ public class AnimationActivity extends AppCompatActivity {
             }
         }
     };
+
+    public Drawable createNinePatch(Context context) {
+        Bitmap bitmap = BitmapFactory.decodeResource(context.getResources(), R.drawable.qipao);
+        NinePatchBuilder ninePatchBuilder = new NinePatchBuilder(context.getResources(), bitmap);
+//        ninePatchBuilder.addXCenteredRegion(SizeUtils.dip2px(context, 10));
+        ninePatchBuilder.addXRegionPoints(100, 160);
+//        ninePatchBuilder.addYCenteredRegion(SizeUtils.dip2px(context, 10));
+        ninePatchBuilder.addYRegionPoints(100, 160);
+
+//        return NinePatchBitmapFactory.createNinePathWithCapInsets(context.getResources(), bitmap, 38, 50, 50, 38, "qipao.9.png");
+        return ninePatchBuilder.build();
+    }
 
     private void scaleAnimation(final View view) {
         AnimationSet mAnimatorSet = new AnimationSet(true);

@@ -191,4 +191,31 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:text="弹力" />
+
+    <TextView
+        android:id="@+id/tv_9"
+        android:layout_marginTop="275dp"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginStart="20dp"
+        android:maxWidth="270dp"
+        android:padding="5dp"
+        android:text="我是你爸爸aaaaaaaaaaaaaaaaaaaa"
+        android:gravity="center"
+        android:textSize="14dp" />
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/tv_9" />
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spreadView"
+        android:hint="请输入你的文字" />
 </RelativeLayout>

@@ -10,20 +10,25 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c73ef40-7462-4a9d-b77d-6e0797bda482" name="Default Changelist" comment="翻页仿真">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/recycleView/PhoneDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/util/PhoneUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/view/RoundProgressBar.java" afterDir="false" />
+    <list default="true" id="1c73ef40-7462-4a9d-b77d-6e0797bda482" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/NinePatchBitmapFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/NinePatchBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/qipao.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/recycleView/CustomItemochCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/recycleView/CustomItemochCallBack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/recycleView/RecycleViewActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/recycleView/RecycleViewActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/AnimationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/AnimationActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_animation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_animation.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +44,12 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -82,8 +92,8 @@
     <property name="android-custom-viewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/SinWaveView.java_SELECTED" value="SinWaveView" />
     <property name="android-custom-viewE:/Android/SDK/sources/android-29/android/opengl/GLSurfaceView.java_SELECTED" value="GLSurfaceView" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/libs" />
-    <property name="multi-representation-previewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/StickyScrollView.java_selected" value="Custom views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="multi-representation-previewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/StickyScrollView.java_selected" value="" />
     <property name="multi-representation-previewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPagerCurl/CurlView.java_selected" value="Custom views" />
     <property name="multi-representation-previewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/FloatingWindows.java_selected" value="Custom views" />
     <property name="multi-representation-previewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/MarqueeTextView.java_selected" value="Custom views" />
@@ -98,28 +108,15 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example.jetpackdemo.viewPager.indector" />
-      <recent name="com.example.jetpackdemo.viewPager.indector.uitils" />
-      <recent name="com.example.jetpackdemo.viewPager.indector.title" />
-      <recent name="com.example.jetpackdemo.viewPager.indector.model" />
-      <recent name="com.example.jetpackdemo.animationView" />
-    </key>
     <key name="android.template.404325236">
       <recent name="com.example.jetpackdemo.animationView" />
-    </key>
-    <key name="android.template.835071322">
-      <recent name="com.example.jetpackdemo.activity" />
-      <recent name="com.example.jetpackdemo.recycleView" />
     </key>
     <key name="android.template.-720171849">
       <recent name="com.example.jetpackdemo" />
     </key>
-    <key name="android.template.-1672235800">
-      <recent name="com.example.jetpackdemo.viewPager" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Android\AndroidProject\jetPackDemo\app\assets" />
+    <key name="android.template.835071322">
+      <recent name="com.example.jetpackdemo.activity" />
+      <recent name="com.example.jetpackdemo.recycleView" />
     </key>
     <key name="android.template.packageName">
       <recent name="com.example.jetpackdemo.pagerMore" />
@@ -128,12 +125,26 @@
       <recent name="com.example.jetpackdemo.room" />
       <recent name="com.example.jetpackdemo.navigation" />
     </key>
+    <key name="android.template.-1672235800">
+      <recent name="com.example.jetpackdemo.viewPager" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\res\drawable-v24" />
+      <recent name="E:\Android\AndroidProject\jetPackDemo\app\assets" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.jetpackdemo.viewPager.indector" />
+      <recent name="com.example.jetpackdemo.viewPager.indector.uitils" />
+      <recent name="com.example.jetpackdemo.viewPager.indector.title" />
+      <recent name="com.example.jetpackdemo.viewPager.indector.model" />
+      <recent name="com.example.jetpackdemo.animationView" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Android\AndroidProject\jetPackDemo\app\libs" />
       <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\res\drawable" />
+      <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\res\mipmap-hdpi" />
+      <recent name="E:\Android\AndroidProject\jetPackDemo\app\libs" />
       <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\res\layout" />
       <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\java\com\example\jetpackdemo\pagerMore\viewPagerCurl" />
-      <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\java\com\example\jetpackdemo" />
     </key>
     <key name="android.template.2028481177">
       <recent name="com.example.jetpackdemo.conslayout" />
@@ -449,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607398956601</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="获取手机通讯录代码上传">
+      <created>1608288862765</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1608288862765</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -485,7 +503,8 @@
     <MESSAGE value="仿书籍翻页" />
     <MESSAGE value="android 和js相互调用" />
     <MESSAGE value="翻页仿真" />
-    <option name="LAST_COMMIT_MESSAGE" value="翻页仿真" />
+    <MESSAGE value="获取手机通讯录代码上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="获取手机通讯录代码上传" />
   </component>
   <component name="WindowStateProjectService">
     <state x="551" y="177" key="#Notifications" timestamp="1604480235651">
@@ -508,6 +527,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="513" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605953203309" />
+    <state x="689" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609816443555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="689" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609816443555" />
     <state x="539" y="274" key="AndroidCreateResourceDirectoryDialog" timestamp="1606979953239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -516,26 +539,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="812" y="331" key="AndroidCreateXmlResourceDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607654104006" />
-    <state x="523" y="102" key="CommitChangelistDialog2" timestamp="1607589910951">
+    <state x="523" y="102" key="CommitChangelistDialog2" timestamp="1608288861876">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="523" y="102" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607589910951" />
-    <state width="1875" height="254" key="GridCell.Tab.0.bottom" timestamp="1608288696680">
+    <state x="523" y="102" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608288861876" />
+    <state x="739" y="259" key="FileChooserDialogImpl" timestamp="1609816314906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="254" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608288696680" />
-    <state width="1875" height="254" key="GridCell.Tab.0.center" timestamp="1608288696679">
+    <state x="739" y="259" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609816314906" />
+    <state width="1875" height="176" key="GridCell.Tab.0.bottom" timestamp="1609647201920">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="254" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608288696679" />
-    <state width="1875" height="254" key="GridCell.Tab.0.left" timestamp="1608288696679">
+    <state width="1875" height="176" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609647201920" />
+    <state width="1875" height="176" key="GridCell.Tab.0.center" timestamp="1609647201920">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="254" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608288696679" />
-    <state width="1875" height="254" key="GridCell.Tab.0.right" timestamp="1608288696680">
+    <state width="1875" height="176" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609647201919" />
+    <state width="1875" height="176" key="GridCell.Tab.0.left" timestamp="1609647201919">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="254" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608288696680" />
+    <state width="1875" height="176" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609647201919" />
+    <state width="1875" height="176" key="GridCell.Tab.0.right" timestamp="1609647201920">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1875" height="176" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609647201920" />
     <state width="1875" height="130" key="GridCell.Tab.1.bottom" timestamp="1606216279590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -564,14 +591,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="460" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602645080792" />
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1607398962412">
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1608288869336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607398962412" />
-    <state x="758" y="296" key="chooseDestDirectoryDialog" timestamp="1606444981234">
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608288869336" />
+    <state x="758" y="296" key="chooseDestDirectoryDialog" timestamp="1609728816413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="758" y="296" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606444981234" />
+    <state x="758" y="296" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609728816413" />
     <state x="639" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1606462713543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -580,9 +607,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="644" y="310" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604480216388" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600488071406">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600488071406" />
   </component>
 </project>
