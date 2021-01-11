@@ -11,31 +11,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c73ef40-7462-4a9d-b77d-6e0797bda482" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/NinePatchBitmapFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/NinePatchBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/qipao.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager2AndViewpager2/ItemViewPager2Fragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager2AndViewpager2/ViewPager2Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager2AndViewpager2/ViewPager2Fragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_view_pager2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_item_view_pager2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_view_pager2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/jetPackDemo.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/jetPackDemo.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/AnimationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/AnimationActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_animation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_animation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DLS4C20416001784]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -83,6 +80,7 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-12-18T10:39:00.481Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android-custom-viewC:/Users/admin/.gradle/caches/modules-2/files-2.1/androidx.viewpager2/viewpager2/1.0.0/3c3569044e6969f1ee5c3aa03b08e6717a2d782f/viewpager2-1.0.0-sources.jar!/androidx/viewpager2/widget/ViewPager2.java_SELECTED" value="ViewPager2" />
     <property name="android-custom-viewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/StickyScrollView.java_SELECTED" value="StickyScrollView" />
     <property name="android-custom-viewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPagerCurl/CurlView.java_SELECTED" value="CurlView" />
     <property name="android-custom-viewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/FloatingWindows.java_SELECTED" value="FloatingWindows" />
@@ -93,6 +91,7 @@
     <property name="android-custom-viewE:/Android/SDK/sources/android-29/android/opengl/GLSurfaceView.java_SELECTED" value="GLSurfaceView" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="multi-representation-previewC:/Users/admin/.gradle/caches/modules-2/files-2.1/androidx.viewpager2/viewpager2/1.0.0/3c3569044e6969f1ee5c3aa03b08e6717a2d782f/viewpager2-1.0.0-sources.jar!/androidx/viewpager2/widget/ViewPager2.java_selected" value="Custom views" />
     <property name="multi-representation-previewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/StickyScrollView.java_selected" value="" />
     <property name="multi-representation-previewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPagerCurl/CurlView.java_selected" value="Custom views" />
     <property name="multi-representation-previewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/FloatingWindows.java_selected" value="Custom views" />
@@ -108,22 +107,18 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="android.template.775174409">
+      <recent name="com.example.jetpackdemo.pagerMore.viewPager2AndViewpager2" />
+    </key>
     <key name="android.template.404325236">
       <recent name="com.example.jetpackdemo.animationView" />
-    </key>
-    <key name="android.template.-720171849">
-      <recent name="com.example.jetpackdemo" />
     </key>
     <key name="android.template.835071322">
       <recent name="com.example.jetpackdemo.activity" />
       <recent name="com.example.jetpackdemo.recycleView" />
     </key>
-    <key name="android.template.packageName">
-      <recent name="com.example.jetpackdemo.pagerMore" />
-      <recent name="com.example.jetpackdemo.view" />
-      <recent name="com.example.jetpackdemo.dataBinding" />
-      <recent name="com.example.jetpackdemo.room" />
-      <recent name="com.example.jetpackdemo.navigation" />
+    <key name="android.template.-720171849">
+      <recent name="com.example.jetpackdemo" />
     </key>
     <key name="android.template.-1672235800">
       <recent name="com.example.jetpackdemo.viewPager" />
@@ -131,6 +126,13 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\res\drawable-v24" />
       <recent name="E:\Android\AndroidProject\jetPackDemo\app\assets" />
+    </key>
+    <key name="android.template.packageName">
+      <recent name="com.example.jetpackdemo.pagerMore" />
+      <recent name="com.example.jetpackdemo.view" />
+      <recent name="com.example.jetpackdemo.dataBinding" />
+      <recent name="com.example.jetpackdemo.room" />
+      <recent name="com.example.jetpackdemo.navigation" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.jetpackdemo.viewPager.indector" />
@@ -467,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608288862765</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="动态创建9.png图片">
+      <created>1609817344131</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1609817344131</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -504,7 +513,8 @@
     <MESSAGE value="android 和js相互调用" />
     <MESSAGE value="翻页仿真" />
     <MESSAGE value="获取手机通讯录代码上传" />
-    <option name="LAST_COMMIT_MESSAGE" value="获取手机通讯录代码上传" />
+    <MESSAGE value="动态创建9.png图片" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态创建9.png图片" />
   </component>
   <component name="WindowStateProjectService">
     <state x="551" y="177" key="#Notifications" timestamp="1604480235651">
@@ -539,10 +549,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="812" y="331" key="AndroidCreateXmlResourceDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607654104006" />
-    <state x="523" y="102" key="CommitChangelistDialog2" timestamp="1608288861876">
+    <state x="523" y="102" key="CommitChangelistDialog2" timestamp="1609817343123">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="523" y="102" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608288861876" />
+    <state x="523" y="102" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609817343123" />
     <state x="739" y="259" key="FileChooserDialogImpl" timestamp="1609816314906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -591,10 +601,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="460" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602645080792" />
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1608288869336">
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1609817349825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608288869336" />
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609817349825" />
     <state x="758" y="296" key="chooseDestDirectoryDialog" timestamp="1609728816413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
