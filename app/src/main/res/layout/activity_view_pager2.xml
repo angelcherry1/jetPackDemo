@@ -20,6 +20,7 @@
             android:layout_height="44dp"
             android:layout_weight="1"
             android:gravity="center"
+            android:textColor="#000000"
             android:text="第一页" />
 
         <TextView
@@ -28,6 +29,7 @@
             android:layout_height="44dp"
             android:layout_weight="1"
             android:gravity="center"
+            android:textColor="#cccccc"
             android:text="第二页" />
 
         <TextView
@@ -36,6 +38,7 @@
             android:layout_height="44dp"
             android:layout_weight="1"
             android:gravity="center"
+            android:textColor="#cccccc"
             android:text="第三页" />
     </LinearLayout>
 

@@ -6,9 +6,12 @@
     tools:context=".pagerMore.viewPager2AndViewpager2.ViewPager2Fragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <androidx.viewpager2.widget.ViewPager2
+    <com.example.jetpackdemo.pagerMore.viewPager2AndViewpager2.widget.MyViewPager2
         android:id="@+id/item_view_pager2"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-
+    <!--    <androidx.viewpager2.widget.ViewPager2-->
+    <!--        android:id="@+id/view_pager2"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent" />-->
 </FrameLayout>
