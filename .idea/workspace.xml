@@ -11,27 +11,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c73ef40-7462-4a9d-b77d-6e0797bda482" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager2AndViewpager2/widget/MyViewPager2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/BezierView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/lableView/LabelButtonView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/lableView/LabelImageView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/lableView/LabelTextView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/lableView/LabelView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/lableView/LabelViewHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/idp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/idq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/idr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ids.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/idt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/skin_tips_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/skin_tips_newmessage.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/skin_tips_newmessage_ninetynine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/tip_anim.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager2AndViewpager2/ItemViewPager2Fragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager2AndViewpager2/ItemViewPager2Fragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager2AndViewpager2/ViewPager2Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager2AndViewpager2/ViewPager2Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager2AndViewpager2/ViewPager2Fragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager2AndViewpager2/ViewPager2Fragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_view_pager2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_view_pager2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_item_view_pager2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_item_view_pager2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_view_pager2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_view_pager2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-night/attrs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,8 +88,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="android-custom-viewC:/Users/admin/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.1.0/9865019bbd2d95e41dede3d8ebf964aa93f97766/appcompat-1.1.0-sources.jar!/androidx/appcompat/widget/AppCompatButton.java_SELECTED" value="AppCompatButton" />
     <property name="android-custom-viewC:/Users/admin/.gradle/caches/modules-2/files-2.1/androidx.viewpager2/viewpager2/1.0.0/3c3569044e6969f1ee5c3aa03b08e6717a2d782f/viewpager2-1.0.0-sources.jar!/androidx/viewpager2/widget/ViewPager2.java_SELECTED" value="ViewPager2" />
+    <property name="android-custom-viewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/BezierView.java_SELECTED" value="BezierView" />
     <property name="android-custom-viewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/StickyScrollView.java_SELECTED" value="StickyScrollView" />
+    <property name="android-custom-viewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/lableView/LabelButtonView.java_SELECTED" value="LabelButtonView" />
+    <property name="android-custom-viewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/lableView/LabelImageView.java_SELECTED" value="LabelImageView" />
+    <property name="android-custom-viewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/lableView/LabelTextView.java_SELECTED" value="LabelTextView" />
+    <property name="android-custom-viewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/lableView/LabelView.java_SELECTED" value="LabelView" />
     <property name="android-custom-viewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager2AndViewpager2/widget/MyViewPager2.java_SELECTED" value="MyViewPager2" />
     <property name="android-custom-viewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPagerCurl/CurlView.java_SELECTED" value="CurlView" />
     <property name="android-custom-viewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/FloatingWindows.java_SELECTED" value="FloatingWindows" />
@@ -101,9 +105,15 @@
     <property name="android-custom-viewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/SinWaveView.java_SELECTED" value="SinWaveView" />
     <property name="android-custom-viewE:/Android/SDK/sources/android-29/android/opengl/GLSurfaceView.java_SELECTED" value="GLSurfaceView" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/lableView" />
+    <property name="multi-representation-previewC:/Users/admin/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.1.0/9865019bbd2d95e41dede3d8ebf964aa93f97766/appcompat-1.1.0-sources.jar!/androidx/appcompat/widget/AppCompatButton.java_selected" value="Custom views" />
     <property name="multi-representation-previewC:/Users/admin/.gradle/caches/modules-2/files-2.1/androidx.viewpager2/viewpager2/1.0.0/3c3569044e6969f1ee5c3aa03b08e6717a2d782f/viewpager2-1.0.0-sources.jar!/androidx/viewpager2/widget/ViewPager2.java_selected" value="Custom views" />
+    <property name="multi-representation-previewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/BezierView.java_selected" value="Custom views" />
     <property name="multi-representation-previewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/StickyScrollView.java_selected" value="" />
+    <property name="multi-representation-previewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/lableView/LabelButtonView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/lableView/LabelImageView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/lableView/LabelTextView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/lableView/LabelView.java_selected" value="Custom views" />
     <property name="multi-representation-previewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager2AndViewpager2/widget/MyViewPager2.java_selected" value="Custom views" />
     <property name="multi-representation-previewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPagerCurl/CurlView.java_selected" value="Custom views" />
     <property name="multi-representation-previewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/FloatingWindows.java_selected" value="Custom views" />
@@ -119,25 +129,15 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="android.template.775174409">
-      <recent name="com.example.jetpackdemo.pagerMore.viewPager2AndViewpager2" />
-    </key>
     <key name="android.template.404325236">
       <recent name="com.example.jetpackdemo.animationView" />
-    </key>
-    <key name="android.template.835071322">
-      <recent name="com.example.jetpackdemo.activity" />
-      <recent name="com.example.jetpackdemo.recycleView" />
     </key>
     <key name="android.template.-720171849">
       <recent name="com.example.jetpackdemo" />
     </key>
-    <key name="android.template.-1672235800">
-      <recent name="com.example.jetpackdemo.viewPager" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\res\drawable-v24" />
-      <recent name="E:\Android\AndroidProject\jetPackDemo\app\assets" />
+    <key name="android.template.835071322">
+      <recent name="com.example.jetpackdemo.activity" />
+      <recent name="com.example.jetpackdemo.recycleView" />
     </key>
     <key name="android.template.packageName">
       <recent name="com.example.jetpackdemo.pagerMore" />
@@ -146,19 +146,29 @@
       <recent name="com.example.jetpackdemo.room" />
       <recent name="com.example.jetpackdemo.navigation" />
     </key>
+    <key name="android.template.775174409">
+      <recent name="com.example.jetpackdemo.pagerMore.viewPager2AndViewpager2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\res\drawable-v24" />
+      <recent name="E:\Android\AndroidProject\jetPackDemo\app\assets" />
+    </key>
+    <key name="android.template.-1672235800">
+      <recent name="com.example.jetpackdemo.viewPager" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.jetpackdemo.animationView" />
       <recent name="com.example.jetpackdemo.viewPager.indector" />
       <recent name="com.example.jetpackdemo.viewPager.indector.uitils" />
       <recent name="com.example.jetpackdemo.viewPager.indector.title" />
       <recent name="com.example.jetpackdemo.viewPager.indector.model" />
-      <recent name="com.example.jetpackdemo.animationView" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\java\com\example\jetpackdemo\animationView\lableView" />
+      <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\res\drawable-v24" />
       <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\res\drawable" />
       <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\res\mipmap-hdpi" />
       <recent name="E:\Android\AndroidProject\jetPackDemo\app\libs" />
-      <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\res\layout" />
-      <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\java\com\example\jetpackdemo\pagerMore\viewPagerCurl" />
     </key>
     <key name="android.template.2028481177">
       <recent name="com.example.jetpackdemo.conslayout" />
@@ -495,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610334816331</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="viewPager2嵌套viewPager2左右滑动冲突">
+      <created>1610339638442</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1610339638442</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -533,7 +550,8 @@
     <MESSAGE value="翻页仿真" />
     <MESSAGE value="获取手机通讯录代码上传" />
     <MESSAGE value="动态创建9.png图片" />
-    <option name="LAST_COMMIT_MESSAGE" value="动态创建9.png图片" />
+    <MESSAGE value="viewPager2嵌套viewPager2左右滑动冲突" />
+    <option name="LAST_COMMIT_MESSAGE" value="viewPager2嵌套viewPager2左右滑动冲突" />
   </component>
   <component name="WindowStateProjectService">
     <state x="551" y="177" key="#Notifications" timestamp="1604480235651">
@@ -572,46 +590,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="741" y="264" key="AndroidProcessChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610337878025" />
-    <state x="523" y="102" key="CommitChangelistDialog2" timestamp="1610334815547">
+    <state x="523" y="102" key="CommitChangelistDialog2" timestamp="1610339637414">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="523" y="102" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610334815547" />
+    <state x="523" y="102" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610339637414" />
     <state x="739" y="259" key="FileChooserDialogImpl" timestamp="1609816314906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="259" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609816314906" />
-    <state width="1875" height="130" key="GridCell.Tab.0.bottom" timestamp="1610337878156">
+    <state width="1875" height="130" key="GridCell.Tab.0.bottom" timestamp="1610347809404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="130" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610337878156" />
-    <state width="1875" height="130" key="GridCell.Tab.0.center" timestamp="1610337878156">
+    <state width="1875" height="130" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610347809404" />
+    <state width="1875" height="130" key="GridCell.Tab.0.center" timestamp="1610347809404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="130" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610337878156" />
-    <state width="1875" height="130" key="GridCell.Tab.0.left" timestamp="1610337878156">
+    <state width="1875" height="130" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610347809404" />
+    <state width="1875" height="130" key="GridCell.Tab.0.left" timestamp="1610347809404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="130" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610337878156" />
-    <state width="1875" height="130" key="GridCell.Tab.0.right" timestamp="1610337878156">
+    <state width="1875" height="130" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610347809404" />
+    <state width="1875" height="130" key="GridCell.Tab.0.right" timestamp="1610347809404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="130" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610337878156" />
-    <state width="1875" height="130" key="GridCell.Tab.1.bottom" timestamp="1610337879714">
+    <state width="1875" height="130" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610347809404" />
+    <state width="1875" height="130" key="GridCell.Tab.1.bottom" timestamp="1610347809404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="130" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610337879714" />
-    <state width="1875" height="130" key="GridCell.Tab.1.center" timestamp="1610337879713">
+    <state width="1875" height="130" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610347809404" />
+    <state width="1875" height="130" key="GridCell.Tab.1.center" timestamp="1610347809404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="130" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610337879713" />
-    <state width="1875" height="130" key="GridCell.Tab.1.left" timestamp="1610337879713">
+    <state width="1875" height="130" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610347809404" />
+    <state width="1875" height="130" key="GridCell.Tab.1.left" timestamp="1610347809404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="130" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610337879713" />
-    <state width="1875" height="130" key="GridCell.Tab.1.right" timestamp="1610337879714">
+    <state width="1875" height="130" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610347809404" />
+    <state width="1875" height="130" key="GridCell.Tab.1.right" timestamp="1610347809404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="130" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610337879714" />
+    <state width="1875" height="130" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610347809404" />
     <state x="539" y="262" key="IDE.errors.dialog" timestamp="1606442949487">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -624,10 +642,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="460" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602645080792" />
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1609817349825">
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1610339644872">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609817349825" />
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610339644872" />
     <state x="758" y="296" key="chooseDestDirectoryDialog" timestamp="1609728816413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
