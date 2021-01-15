@@ -11,12 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c73ef40-7462-4a9d-b77d-6e0797bda482" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/wave/Solid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/wave/Wave.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/wave/WaveView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-night/attrs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -512,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610694856501</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="水波浪花控件上传">
+      <created>1610696734593</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1610696734593</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -552,7 +554,8 @@
     <MESSAGE value="动态创建9.png图片" />
     <MESSAGE value="viewPager2嵌套viewPager2左右滑动冲突" />
     <MESSAGE value="上传标签view" />
-    <option name="LAST_COMMIT_MESSAGE" value="上传标签view" />
+    <MESSAGE value="水波浪花控件上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="水波浪花控件上传" />
   </component>
   <component name="WindowStateProjectService">
     <state x="551" y="177" key="#Notifications" timestamp="1604480235651">
@@ -591,10 +594,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="741" y="264" key="AndroidProcessChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610337878025" />
-    <state x="523" y="102" key="CommitChangelistDialog2" timestamp="1610694855900">
+    <state x="523" y="102" key="CommitChangelistDialog2" timestamp="1610696733992">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="523" y="102" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610694855900" />
+    <state x="523" y="102" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610696733992" />
     <state x="739" y="259" key="FileChooserDialogImpl" timestamp="1609816314906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -643,10 +646,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="460" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602645080792" />
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1610339644872">
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1610696739789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610339644872" />
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610696739789" />
     <state x="758" y="296" key="chooseDestDirectoryDialog" timestamp="1609728816413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
