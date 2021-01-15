@@ -11,22 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c73ef40-7462-4a9d-b77d-6e0797bda482" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/BezierView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/lableView/LabelButtonView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/lableView/LabelImageView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/lableView/LabelTextView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/lableView/LabelView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/lableView/LabelViewHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/idp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/idq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/idr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ids.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/idt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/skin_tips_new.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/skin_tips_newmessage.9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/skin_tips_newmessage_ninetynine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/tip_anim.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/wave/Solid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/wave/Wave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/wave/WaveView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-night/attrs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" afterDir="false" />
@@ -96,6 +83,9 @@
     <property name="android-custom-viewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/lableView/LabelImageView.java_SELECTED" value="LabelImageView" />
     <property name="android-custom-viewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/lableView/LabelTextView.java_SELECTED" value="LabelTextView" />
     <property name="android-custom-viewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/lableView/LabelView.java_SELECTED" value="LabelView" />
+    <property name="android-custom-viewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/wave/Solid.java_SELECTED" value="Solid" />
+    <property name="android-custom-viewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/wave/Wave.java_SELECTED" value="Wave" />
+    <property name="android-custom-viewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/wave/WaveView.java_SELECTED" value="WaveView" />
     <property name="android-custom-viewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager2AndViewpager2/widget/MyViewPager2.java_SELECTED" value="MyViewPager2" />
     <property name="android-custom-viewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPagerCurl/CurlView.java_SELECTED" value="CurlView" />
     <property name="android-custom-viewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/FloatingWindows.java_SELECTED" value="FloatingWindows" />
@@ -105,7 +95,7 @@
     <property name="android-custom-viewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/SinWaveView.java_SELECTED" value="SinWaveView" />
     <property name="android-custom-viewE:/Android/SDK/sources/android-29/android/opengl/GLSurfaceView.java_SELECTED" value="GLSurfaceView" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/lableView" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/wave" />
     <property name="multi-representation-previewC:/Users/admin/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.1.0/9865019bbd2d95e41dede3d8ebf964aa93f97766/appcompat-1.1.0-sources.jar!/androidx/appcompat/widget/AppCompatButton.java_selected" value="Custom views" />
     <property name="multi-representation-previewC:/Users/admin/.gradle/caches/modules-2/files-2.1/androidx.viewpager2/viewpager2/1.0.0/3c3569044e6969f1ee5c3aa03b08e6717a2d782f/viewpager2-1.0.0-sources.jar!/androidx/viewpager2/widget/ViewPager2.java_selected" value="Custom views" />
     <property name="multi-representation-previewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/BezierView.java_selected" value="Custom views" />
@@ -114,6 +104,9 @@
     <property name="multi-representation-previewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/lableView/LabelImageView.java_selected" value="Custom views" />
     <property name="multi-representation-previewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/lableView/LabelTextView.java_selected" value="Custom views" />
     <property name="multi-representation-previewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/lableView/LabelView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/wave/Solid.java_selected" value="Custom views" />
+    <property name="multi-representation-previewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/wave/Wave.java_selected" value="Custom views" />
+    <property name="multi-representation-previewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/wave/WaveView.java_selected" value="Custom views" />
     <property name="multi-representation-previewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager2AndViewpager2/widget/MyViewPager2.java_selected" value="Custom views" />
     <property name="multi-representation-previewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPagerCurl/CurlView.java_selected" value="Custom views" />
     <property name="multi-representation-previewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/FloatingWindows.java_selected" value="Custom views" />
@@ -164,11 +157,11 @@
       <recent name="com.example.jetpackdemo.viewPager.indector.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\java\com\example\jetpackdemo\animationView\wave" />
       <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\java\com\example\jetpackdemo\animationView\lableView" />
       <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\res\drawable-v24" />
       <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\res\drawable" />
       <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\res\mipmap-hdpi" />
-      <recent name="E:\Android\AndroidProject\jetPackDemo\app\libs" />
     </key>
     <key name="android.template.2028481177">
       <recent name="com.example.jetpackdemo.conslayout" />
@@ -512,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610339638442</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="上传标签view">
+      <created>1610694856501</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1610694856501</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -551,7 +551,8 @@
     <MESSAGE value="获取手机通讯录代码上传" />
     <MESSAGE value="动态创建9.png图片" />
     <MESSAGE value="viewPager2嵌套viewPager2左右滑动冲突" />
-    <option name="LAST_COMMIT_MESSAGE" value="viewPager2嵌套viewPager2左右滑动冲突" />
+    <MESSAGE value="上传标签view" />
+    <option name="LAST_COMMIT_MESSAGE" value="上传标签view" />
   </component>
   <component name="WindowStateProjectService">
     <state x="551" y="177" key="#Notifications" timestamp="1604480235651">
@@ -590,10 +591,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="741" y="264" key="AndroidProcessChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610337878025" />
-    <state x="523" y="102" key="CommitChangelistDialog2" timestamp="1610339637414">
+    <state x="523" y="102" key="CommitChangelistDialog2" timestamp="1610694855900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="523" y="102" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610339637414" />
+    <state x="523" y="102" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610694855900" />
     <state x="739" y="259" key="FileChooserDialogImpl" timestamp="1609816314906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
