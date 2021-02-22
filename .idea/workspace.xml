@@ -11,48 +11,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c73ef40-7462-4a9d-b77d-6e0797bda482" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/loading/AVLoadingIndicatorView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/loading/BallBeatIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/loading/BallClipRotateIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/loading/BallClipRotateMultipleIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/loading/BallClipRotatePulseIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/loading/BallGridBeatIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/loading/BallGridPulseIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/loading/BallPulseIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/loading/BallPulseRiseIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/loading/BallPulseSyncIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/loading/BallRotateIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/loading/BallScaleIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/loading/BallScaleMultipleIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/loading/BallScaleRippleIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/loading/BallScaleRippleMultipleIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/loading/BallSpinFadeLoaderIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/loading/BallTrianglePathIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/loading/BallZigZagDeflectIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/loading/BallZigZagIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/loading/CubeTransitionIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/loading/Indicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/loading/LineScaleIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/loading/LineScalePartyIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/loading/LineScalePulseOutIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/loading/LineScalePulseOutRapidIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/loading/LineSpinFadeLoaderIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/loading/PacmanIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/loading/SemiCircleSpinIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/loading/SquareSpinIndicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/loading/TriangleSkewSpinIndicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_exifinterface_exifinterface_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_annotations_4_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_disklrucache_4_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_11_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_11_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jp_co_cyberagent_android_gpuimage_2_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jp_wasabeef_blurry_4_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jp_wasabeef_glide_transformations_4_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/myGlide/BlureActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_blure.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/touxiang1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/app_room_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/jetPackDemo.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/jetPackDemo.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-night/attrs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-night/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[127.0.0.1:5555]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[emulator-5554]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -96,6 +95,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="BundleExportedModule" value="jetPackDemo.app" />
     <property name="DEBUGGABLE_DEVICE" value="huawei-cdy_an00-DLS4C20416001784" />
     <property name="DEBUGGABLE_PROCESS" value="com.example.jetpackdemo" />
     <property name="DEBUGGER_ID" value="Auto" />
@@ -124,8 +124,10 @@
     <property name="android-custom-viewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/RoundProgressBar.java_SELECTED" value="RoundProgressBar" />
     <property name="android-custom-viewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/SinWaveView.java_SELECTED" value="SinWaveView" />
     <property name="android-custom-viewE:/Android/SDK/sources/android-29/android/opengl/GLSurfaceView.java_SELECTED" value="GLSurfaceView" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/loading" />
+    <property name="android-custom-viewE:/Android/SDK/sources/android-29/android/view/View.java_SELECTED" value="View" />
+    <property name="android-custom-viewE:/Android/SDK/sources/android-29/android/widget/ImageView.java_SELECTED" value="ImageView" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi" />
     <property name="multi-representation-previewC:/Users/admin/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.1.0/9865019bbd2d95e41dede3d8ebf964aa93f97766/appcompat-1.1.0-sources.jar!/androidx/appcompat/widget/AppCompatButton.java_selected" value="Custom views" />
     <property name="multi-representation-previewC:/Users/admin/.gradle/caches/modules-2/files-2.1/androidx.viewpager2/viewpager2/1.0.0/3c3569044e6969f1ee5c3aa03b08e6717a2d782f/viewpager2-1.0.0-sources.jar!/androidx/viewpager2/widget/ViewPager2.java_selected" value="Custom views" />
     <property name="multi-representation-previewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/BezierView.java_selected" value="Custom views" />
@@ -146,6 +148,8 @@
     <property name="multi-representation-previewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/RoundProgressBar.java_selected" value="Custom views" />
     <property name="multi-representation-previewE:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/SinWaveView.java_selected" value="Custom views" />
     <property name="multi-representation-previewE:/Android/SDK/sources/android-29/android/opengl/GLSurfaceView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewE:/Android/SDK/sources/android-29/android/view/View.java_selected" value="Custom views" />
+    <property name="multi-representation-previewE:/Android/SDK/sources/android-29/android/widget/ImageView.java_selected" value="Custom views" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -153,32 +157,40 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="android.template.200561065">
+      <recent name="com.example.jetpackdemo.webAndJs" />
+    </key>
     <key name="android.template.404325236">
       <recent name="com.example.jetpackdemo.animationView" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\res\mipmap-xxhdpi" />
+      <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\res\mipmap-xxxhdpi" />
+      <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\java\com\example\jetpackdemo\animationView\loading" />
+      <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\java\com\example\jetpackdemo\animationView\wave" />
+      <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\java\com\example\jetpackdemo\animationView\lableView" />
+    </key>
+    <key name="android.template.-1672235800">
+      <recent name="com.example.jetpackdemo.viewPager" />
+    </key>
+    <key name="android.template.258957612">
+      <recent name="com.example.jetpackdemo.myGlide" />
     </key>
     <key name="android.template.-720171849">
       <recent name="com.example.jetpackdemo" />
     </key>
-    <key name="android.template.835071322">
+    <key name="android.template.2028481177">
+      <recent name="com.example.jetpackdemo.conslayout" />
+    </key>
+    <key name="android.template.13657718">
       <recent name="com.example.jetpackdemo.activity" />
-      <recent name="com.example.jetpackdemo.recycleView" />
-    </key>
-    <key name="android.template.packageName">
-      <recent name="com.example.jetpackdemo.pagerMore" />
-      <recent name="com.example.jetpackdemo.view" />
-      <recent name="com.example.jetpackdemo.dataBinding" />
-      <recent name="com.example.jetpackdemo.room" />
-      <recent name="com.example.jetpackdemo.navigation" />
-    </key>
-    <key name="android.template.775174409">
-      <recent name="com.example.jetpackdemo.pagerMore.viewPager2AndViewpager2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\res\drawable-v24" />
       <recent name="E:\Android\AndroidProject\jetPackDemo\app\assets" />
     </key>
-    <key name="android.template.-1672235800">
-      <recent name="com.example.jetpackdemo.viewPager" />
+    <key name="android.template.775174409">
+      <recent name="com.example.jetpackdemo.pagerMore.viewPager2AndViewpager2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.jetpackdemo.animationView" />
@@ -187,24 +199,19 @@
       <recent name="com.example.jetpackdemo.viewPager.indector.title" />
       <recent name="com.example.jetpackdemo.viewPager.indector.model" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\java\com\example\jetpackdemo\animationView\loading" />
-      <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\java\com\example\jetpackdemo\animationView\wave" />
-      <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\java\com\example\jetpackdemo\animationView\lableView" />
-      <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\res\drawable-v24" />
-      <recent name="E:\Android\AndroidProject\jetPackDemo\app\src\main\res\drawable" />
+    <key name="android.template.packageName">
+      <recent name="com.example.jetpackdemo.pagerMore" />
+      <recent name="com.example.jetpackdemo.view" />
+      <recent name="com.example.jetpackdemo.dataBinding" />
+      <recent name="com.example.jetpackdemo.room" />
+      <recent name="com.example.jetpackdemo.navigation" />
     </key>
-    <key name="android.template.2028481177">
-      <recent name="com.example.jetpackdemo.conslayout" />
+    <key name="android.template.835071322">
+      <recent name="com.example.jetpackdemo.activity" />
+      <recent name="com.example.jetpackdemo.recycleView" />
     </key>
     <key name="android.template.543070639">
       <recent name="com.example.jetpackdemo.pageturn" />
-    </key>
-    <key name="android.template.200561065">
-      <recent name="com.example.jetpackdemo.webAndJs" />
-    </key>
-    <key name="android.template.13657718">
-      <recent name="com.example.jetpackdemo.activity" />
     </key>
   </component>
   <component name="RunManager">
@@ -557,7 +564,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610698023666</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="loading动画上传">
+      <created>1610700850630</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1610700850630</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -573,7 +587,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="第一次viewModel例子提交" />
     <MESSAGE value="第一次Android studio提交" />
     <MESSAGE value="第一次navigation示例提交" />
     <MESSAGE value="room示例提交" />
@@ -598,21 +611,14 @@
     <MESSAGE value="viewPager2嵌套viewPager2左右滑动冲突" />
     <MESSAGE value="上传标签view" />
     <MESSAGE value="水波浪花控件上传" />
-    <option name="LAST_COMMIT_MESSAGE" value="水波浪花控件上传" />
+    <MESSAGE value="loading动画上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="loading动画上传" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="551" y="177" key="#Notifications" timestamp="1604480235651">
+    <state x="476" y="265" key="#PSD" timestamp="1613992172631">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="177" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1604480235651" />
-    <state x="476" y="251" key="#PSD" timestamp="1605063992033">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="476" y="251" key="#PSD/0.0.1920.1040@0.0.1920.1040" timestamp="1605063992033" />
-    <state x="667" y="163" key="#app" timestamp="1603509433383">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="667" y="163" key="#app/0.0.1920.1040@0.0.1920.1040" timestamp="1603509433383" />
+    <state x="476" y="265" key="#PSD/0.0.1920.1040@0.0.1920.1040" timestamp="1613992172631" />
     <state x="764" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1610336495451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -633,50 +639,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="812" y="331" key="AndroidCreateXmlResourceDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607654104006" />
-    <state x="741" y="264" key="AndroidProcessChooserDialog" timestamp="1610337878025">
+    <state x="741" y="264" key="AndroidProcessChooserDialog" timestamp="1612592753280">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="741" y="264" key="AndroidProcessChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610337878025" />
-    <state x="523" y="102" key="CommitChangelistDialog2" timestamp="1610698023182">
+    <state x="741" y="264" key="AndroidProcessChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612592753280" />
+    <state x="523" y="102" key="CommitChangelistDialog2" timestamp="1610700850000">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="523" y="102" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610698023182" />
+    <state x="523" y="102" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1610700850000" />
     <state x="739" y="259" key="FileChooserDialogImpl" timestamp="1609816314906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="259" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609816314906" />
-    <state width="1875" height="130" key="GridCell.Tab.0.bottom" timestamp="1610347809404">
+    <state width="1875" height="130" key="GridCell.Tab.0.bottom" timestamp="1612597871136">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="130" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610347809404" />
-    <state width="1875" height="130" key="GridCell.Tab.0.center" timestamp="1610347809404">
+    <state width="1875" height="130" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612597871136" />
+    <state width="1875" height="130" key="GridCell.Tab.0.center" timestamp="1612597871136">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="130" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610347809404" />
-    <state width="1875" height="130" key="GridCell.Tab.0.left" timestamp="1610347809404">
+    <state width="1875" height="130" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612597871136" />
+    <state width="1875" height="130" key="GridCell.Tab.0.left" timestamp="1612597871136">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="130" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610347809404" />
-    <state width="1875" height="130" key="GridCell.Tab.0.right" timestamp="1610347809404">
+    <state width="1875" height="130" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612597871136" />
+    <state width="1875" height="130" key="GridCell.Tab.0.right" timestamp="1612597871136">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="130" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610347809404" />
-    <state width="1875" height="130" key="GridCell.Tab.1.bottom" timestamp="1610347809404">
+    <state width="1875" height="130" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612597871136" />
+    <state width="1875" height="130" key="GridCell.Tab.1.bottom" timestamp="1612597871137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="130" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610347809404" />
-    <state width="1875" height="130" key="GridCell.Tab.1.center" timestamp="1610347809404">
+    <state width="1875" height="130" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612597871137" />
+    <state width="1875" height="130" key="GridCell.Tab.1.center" timestamp="1612597871137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="130" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610347809404" />
-    <state width="1875" height="130" key="GridCell.Tab.1.left" timestamp="1610347809404">
+    <state width="1875" height="130" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612597871137" />
+    <state width="1875" height="130" key="GridCell.Tab.1.left" timestamp="1612597871136">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="130" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610347809404" />
-    <state width="1875" height="130" key="GridCell.Tab.1.right" timestamp="1610347809404">
+    <state width="1875" height="130" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612597871136" />
+    <state width="1875" height="130" key="GridCell.Tab.1.right" timestamp="1612597871137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="130" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610347809404" />
+    <state width="1875" height="130" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612597871137" />
     <state x="539" y="262" key="IDE.errors.dialog" timestamp="1606442949487">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -685,25 +691,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="599" y="216" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1605953059898" />
-    <state x="460" y="161" key="SettingsEditor" timestamp="1602645080792">
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1610700956856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="460" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602645080792" />
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1610698031261">
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610700956856" />
+    <state x="758" y="296" key="chooseDestDirectoryDialog" timestamp="1612584969970">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610698031261" />
-    <state x="758" y="296" key="chooseDestDirectoryDialog" timestamp="1609728816413">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="758" y="296" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609728816413" />
+    <state x="758" y="296" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612584969970" />
     <state x="639" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1606462713543">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="639" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606462713543" />
-    <state x="644" y="310" key="git4idea.merge.GitPullDialog" timestamp="1604480216388">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="644" y="310" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604480216388" />
   </component>
 </project>

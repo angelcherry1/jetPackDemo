@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.anzaizai:EasySwipeMenuLayout:1.1.4@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0b5fdbbc51e9a7c3b8e2145b9ddf1044/jetified-EasySwipeMenuLayout-1.1.4/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0b5fdbbc51e9a7c3b8e2145b9ddf1044/jetified-EasySwipeMenuLayout-1.1.4/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0b5fdbbc51e9a7c3b8e2145b9ddf1044/jetified-EasySwipeMenuLayout-1.1.4/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e3dd0dda95432154475f90a1e491f1c7/jetified-EasySwipeMenuLayout-1.1.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e3dd0dda95432154475f90a1e491f1c7/jetified-EasySwipeMenuLayout-1.1.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e3dd0dda95432154475f90a1e491f1c7/jetified-EasySwipeMenuLayout-1.1.4/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

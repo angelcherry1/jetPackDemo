@@ -23,6 +23,7 @@ import com.example.jetpackdemo.conslayout.LayoutActivity;
 import com.example.jetpackdemo.dataBinding.DataBindActivity;
 import com.example.jetpackdemo.liveData.LiveDataActivity;
 import com.example.jetpackdemo.model.City;
+import com.example.jetpackdemo.myGlide.BlureActivity;
 import com.example.jetpackdemo.navigation.NavigationActivity;
 import com.example.jetpackdemo.pagerMore.pageturn.PageTurnActivity;
 import com.example.jetpackdemo.pagerMore.viewPager.ViewPagerActivity;
@@ -47,7 +48,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-    private Button btn1, btn2, btn3, btn4, btn5, btn6, btn_paixu, btn6_anima, btn6_cos, btn6_shou, btn6_rec, btn6_dialog, btn6_view_pager, btn6_book_pager, btn6_book_pager_curl, btn6_web, btn7_my_view_pager2;
+    private Button btn1, btn2, btn3, btn4, btn5, btn6, btn_paixu, btn6_anima, btn6_cos, btn6_shou, btn6_rec, btn6_dialog, btn6_view_pager, btn6_book_pager, btn6_book_pager_curl, btn6_web, btn7_my_view_pager2, btn7_glide;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,6 +71,7 @@ public class MainActivity extends AppCompatActivity {
         btn6_book_pager_curl = findViewById(R.id.btn6_book_pager_curl);
         btn6_web = findViewById(R.id.btn6_web);
         btn7_my_view_pager2 = findViewById(R.id.btn7_my_view_pager2);
+        btn7_glide = findViewById(R.id.btn7_glide);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -191,6 +193,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), ViewPager2Activity.class);
+                startActivity(intent);
+            }
+        });
+        btn7_glide.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), BlureActivity.class);
                 startActivity(intent);
             }
         });
