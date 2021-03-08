@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.drawable.Animatable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Handler;
@@ -34,7 +35,7 @@ public class AnimationActivity extends AppCompatActivity {
 
     private SpreadView spreadView;
     private CustomScoreBar csb;
-    private ImageView iv_red;
+    private ImageView iv_red, imageView;
     private FlexBoxLayout2 ll_add_view;
     private EditText left_et, right_et, input;
     private TextView tv_9;
@@ -138,6 +139,22 @@ public class AnimationActivity extends AppCompatActivity {
         });
 
 
+        imageView = findViewById(R.id.iv_search);
+
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (imageView.getBackground() instanceof Animatable) {
+                    Animatable background = (Animatable) imageView.getBackground();
+                    if (background.isRunning()) {
+                        background.stop();
+                    } else {
+                        background.start();
+                    }
+
+                }
+            }
+        });
     }
 
     private int a = 0;

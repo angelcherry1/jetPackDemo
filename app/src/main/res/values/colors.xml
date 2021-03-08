@@ -5,6 +5,8 @@
     <color name="colorAccent">#03DAC5</color>
     <color name="love">#ff333333</color>
     <color name="colorPrimaryTranslucent">#2002A8F3</color>
+    <color name="textDark">#222</color>
+    <color name="textLight">#555</color>
 
     <color name="white">#ffffff</color>
     <color name="colorAccentTranslucent">#2002A8F3</color>

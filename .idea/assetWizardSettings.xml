@@ -16,25 +16,11 @@
                   <entry key="vectorAssetStep">
                     <value>
                       <PersistentState>
-                        <option name="children">
-                          <map>
-                            <entry key="clipartAsset">
-                              <value>
-                                <PersistentState>
-                                  <option name="values">
-                                    <map>
-                                      <entry key="url" value="jar:file:/F:/android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/image/ic_filter_vintage_black_24dp.xml" />
-                                    </map>
-                                  </option>
-                                </PersistentState>
-                              </value>
-                            </entry>
-                          </map>
-                        </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_filter_vintage_black_24dp" />
-                            <entry key="sourceFile" value="C:\Users\Administrator" />
+                            <entry key="assetSourceType" value="FILE" />
+                            <entry key="outputName" value="ic_resource_switch" />
+                            <entry key="sourceFile" value="C:\Users\admin\Desktop\ui素材\voice\switch.svg" />
                           </map>
                         </option>
                       </PersistentState>

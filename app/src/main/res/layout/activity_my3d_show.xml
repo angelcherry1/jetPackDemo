@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/gif"
+        android:layout_width="150dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="GIF显示3D"
+        android:textColor="@android:color/white"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/stl"
+        android:layout_width="150dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="STL显示3D"
+        android:textColor="@android:color/white"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/google"
+        android:layout_width="150dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="Google显示3D"
+        android:textColor="@android:color/white"
+        android:background="@android:color/black" />
+</LinearLayout>

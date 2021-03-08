@@ -148,6 +148,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="glide" />
+
+            <Button
+                android:id="@+id/btn7_3d_vr"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3dVRShow" />
         </LinearLayout>
 
     </ScrollView>

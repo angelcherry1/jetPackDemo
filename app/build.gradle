@@ -78,4 +78,9 @@ dependencies {
     implementation 'jp.co.cyberagent.android:gpuimage:2.1.0'
     //高斯模糊
     implementation 'jp.wasabeef:blurry:4.0.0'
+
+    //gifDrawable
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
+    //googel全息
+    implementation 'com.google.vr:sdk-panowidget:1.40.0'
 }

@@ -21,6 +21,7 @@ import com.example.jetpackdemo.activity.DialogActivity;
 import com.example.jetpackdemo.animationView.AnimationActivity;
 import com.example.jetpackdemo.conslayout.LayoutActivity;
 import com.example.jetpackdemo.dataBinding.DataBindActivity;
+import com.example.jetpackdemo.gifshow.My3dShowActivity;
 import com.example.jetpackdemo.liveData.LiveDataActivity;
 import com.example.jetpackdemo.model.City;
 import com.example.jetpackdemo.myGlide.BlureActivity;
@@ -48,7 +49,9 @@ import java.util.Collections;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-    private Button btn1, btn2, btn3, btn4, btn5, btn6, btn_paixu, btn6_anima, btn6_cos, btn6_shou, btn6_rec, btn6_dialog, btn6_view_pager, btn6_book_pager, btn6_book_pager_curl, btn6_web, btn7_my_view_pager2, btn7_glide;
+    private Button btn1, btn2, btn3, btn4, btn5, btn6, btn_paixu, btn6_anima, btn6_cos, btn6_shou, btn6_rec,
+            btn6_dialog, btn6_view_pager, btn6_book_pager, btn7_3d_vr,
+            btn6_book_pager_curl, btn6_web, btn7_my_view_pager2, btn7_glide;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,6 +75,7 @@ public class MainActivity extends AppCompatActivity {
         btn6_web = findViewById(R.id.btn6_web);
         btn7_my_view_pager2 = findViewById(R.id.btn7_my_view_pager2);
         btn7_glide = findViewById(R.id.btn7_glide);
+        btn7_3d_vr = findViewById(R.id.btn7_3d_vr);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -200,6 +204,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), BlureActivity.class);
+                startActivity(intent);
+            }
+        });
+        btn7_3d_vr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), My3dShowActivity.class);
                 startActivity(intent);
             }
         });
