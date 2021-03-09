@@ -82,5 +82,5 @@ dependencies {
     //gifDrawable
     implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
     //googel全息
-    implementation 'com.google.vr:sdk-panowidget:1.40.0'
+    implementation 'com.google.vr:sdk-panowidget:1.160.0'
 }

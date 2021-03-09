@@ -6,11 +6,8 @@ import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.text.Html;
-import android.text.method.LinkMovementMethod;
 import android.util.Log;
 import android.util.Pair;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -56,14 +53,13 @@ public class GoogleActivity extends AppCompatActivity {
         setContentView(R.layout.main_layout);
 
         // Make the source link clickable.
-        TextView sourceText = (TextView) findViewById(R.id.source);
-        sourceText.setText(Html.fromHtml(getString(R.string.source)));
-        sourceText.setMovementMethod(LinkMovementMethod.getInstance());
+//        AppCompatTextView sourceText = findViewById(R.id.source);
+//        sourceText.setText(Html.fromHtml(getString(R.string.source)));
+//        sourceText.setMovementMethod(LinkMovementMethod.getInstance());
 
         panoWidgetView = (VrPanoramaView) findViewById(R.id.pano_view);
         panoWidgetView.setEventListener(new ActivityEventListener());
         //panoWidgetView.setTouchTrackingEnabled(true);
-
         // Initial launch of the app or an Activity recreation due to rotation.
         handleIntent(getIntent());
     }
