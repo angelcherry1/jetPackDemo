@@ -77,8 +77,6 @@ public class RecycleViewActivity extends AppCompatActivity {
             PhoneUtil phoneUtil = new PhoneUtil(this);
             List<PhoneDto> phone = phoneUtil.getPhone();
             mAdapter.setList(phone);
-        } else {
-            return;
         }
 
     }

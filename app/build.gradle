@@ -83,4 +83,9 @@ dependencies {
     implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
     //googel全息
     implementation 'com.google.vr:sdk-panowidget:1.160.0'
+
+    implementation 'com.nineoldandroids:library:2.4.0'
+
+    //图片缩放
+    implementation 'com.davemorrissey.labs:subsampling-scale-image-view-androidx:3.10.0'
 }
