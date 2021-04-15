@@ -19,7 +19,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.jetpackdemo.activity.AppBarLayoutActivity;
 import com.example.jetpackdemo.activity.DialogActivity;
 import com.example.jetpackdemo.animationView.AnimationActivity;
-import com.example.jetpackdemo.animationView.SnowActivity;
+import com.example.jetpackdemo.animationView.fish.FishActivity;
+import com.example.jetpackdemo.animationView.snow.SnowActivity;
 import com.example.jetpackdemo.conslayout.LayoutActivity;
 import com.example.jetpackdemo.dataBinding.DataBindActivity;
 import com.example.jetpackdemo.gifshow.My3dShowActivity;
@@ -52,7 +53,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
     private Button btn1, btn2, btn3, btn4, btn5, btn6, btn_paixu, btn6_anima, btn6_cos, btn6_shou, btn6_rec,
             btn6_dialog, btn6_view_pager, btn6_book_pager, btn7_3d_vr,
-            btn6_book_pager_curl, btn6_web, btn7_my_view_pager2, btn7_glide, btn7_snow;
+            btn6_book_pager_curl, btn6_web, btn7_my_view_pager2, btn7_glide, btn7_snow,btn7_fish;
     private Button btn7_snow1;
 
     @Override
@@ -79,6 +80,7 @@ public class MainActivity extends AppCompatActivity {
         btn7_glide = findViewById(R.id.btn7_glide);
         btn7_3d_vr = findViewById(R.id.btn7_3d_vr);
         btn7_snow = findViewById(R.id.btn7_snow);
+        btn7_fish = findViewById(R.id.btn7_fish);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -222,6 +224,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), SnowActivity.class);
+                startActivity(intent);
+            }
+        });
+        btn7_fish.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), FishActivity.class);
                 startActivity(intent);
             }
         });

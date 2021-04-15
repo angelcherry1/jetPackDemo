@@ -123,6 +123,7 @@ public class SpreadView extends View {
         canvas.drawCircle(centerX, centerY, radius, centerPaint);
         //TODO 可以在中间圆绘制文字或者图片
         y++;
+
         if(y<centerY*2){
             canvas.drawText("我是你爹",centerX,y,TextPaint);
         }else {

@@ -1,4 +1,4 @@
-package com.example.jetpackdemo.animationView;
+package com.example.jetpackdemo.animationView.snow;
 
 import androidx.appcompat.app.AppCompatActivity;
 
