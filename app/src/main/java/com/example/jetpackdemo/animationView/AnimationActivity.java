@@ -55,8 +55,8 @@ public class AnimationActivity extends AppCompatActivity {
         ll_add_view = findViewById(R.id.ll_add_view);
         avm = findViewById(R.id.avm);
         hsv = findViewById(R.id.hsv);
-        tv_9 = findViewById(R.id.tv_9);
-        input = findViewById(R.id.input);
+//        tv_9 = findViewById(R.id.tv_9);
+//        input = findViewById(R.id.input);
         ImageView iv_image = findViewById(R.id.iv_image);
         final ImageView iv_red2 = findViewById(R.id.iv_red2);
         Button start = findViewById(R.id.start);
@@ -139,22 +139,22 @@ public class AnimationActivity extends AppCompatActivity {
         });
 
 
-        imageView = findViewById(R.id.iv_search);
-
-        imageView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (imageView.getBackground() instanceof Animatable) {
-                    Animatable background = (Animatable) imageView.getBackground();
-                    if (background.isRunning()) {
-                        background.stop();
-                    } else {
-                        background.start();
-                    }
-
-                }
-            }
-        });
+//        imageView = findViewById(R.id.iv_search);
+//
+//        imageView.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                if (imageView.getBackground() instanceof Animatable) {
+//                    Animatable background = (Animatable) imageView.getBackground();
+//                    if (background.isRunning()) {
+//                        background.stop();
+//                    } else {
+//                        background.start();
+//                    }
+//
+//                }
+//            }
+//        });
     }
 
     private int a = 0;
