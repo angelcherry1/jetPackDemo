@@ -18,70 +18,70 @@
             android:orientation="vertical">
 
             <Button
-                android:layout_marginTop="10dp"
                 android:id="@+id/btn1_viewModel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:text="viewModel" />
 
             <Button
                 android:id="@+id/btn2_liveData"
-                android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:text="liveData" />
 
             <Button
                 android:id="@+id/btn3_navigation"
-                android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:text="navgation" />
 
             <Button
                 android:id="@+id/btn4_room"
-                android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:text="room" />
 
             <Button
                 android:id="@+id/btn5_dataBinding"
-                android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:text="DataBinding" />
 
             <Button
                 android:id="@+id/btn6_dataBinding"
-                android:layout_marginTop="10dp"
-
                 android:layout_width="wrap_content"
+
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:text="清屏" />
 
             <Button
                 android:id="@+id/btn6_anima"
-                android:layout_marginTop="10dp"
-
                 android:layout_width="wrap_content"
+
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:text="动画" />
 
             <Button
                 android:id="@+id/btn6_cos"
-                android:layout_marginTop="10dp"
-
                 android:layout_width="wrap_content"
+
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:text="布局" />
 
             <Button
                 android:id="@+id/btn6_shou"
-                android:layout_marginTop="10dp"
-
                 android:layout_width="wrap_content"
+
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:text="收缩" />
 
             <Button
@@ -89,72 +89,86 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:padding="10dp"
                 android:background="@drawable/app_find_menu_gift_bg"
+                android:padding="10dp"
                 android:text="我是你爹" />
 
             <Button
                 android:id="@+id/btn6_rec"
-                android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:text="RecyclerView" />
 
             <Button
                 android:id="@+id/btn6_dialog"
-                android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:text="弹窗" />
 
             <Button
                 android:id="@+id/btn6_view_pager"
-                android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:text="view_pager" />
 
             <Button
                 android:id="@+id/btn6_book_pager"
-                android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:text="翻页效果" />
 
             <Button
                 android:id="@+id/btn6_book_pager_curl"
-                android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:text="翻页效果Curl" />
 
             <Button
                 android:id="@+id/btn6_web"
-                android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:text="web" />
 
             <Button
                 android:id="@+id/btn7_my_view_pager2"
-                android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:text="myviewPager" />
 
             <Button
                 android:id="@+id/btn7_glide"
-                android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:text="glide" />
 
             <Button
                 android:id="@+id/btn7_3d_vr"
-                android:layout_marginTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:text="3dVRShow" />
+
+            <Button
+                android:id="@+id/btn7_snow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="雪花效果" />
+
+            <Button
+                android:id="@+id/btn7_fish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="游鱼" />
         </LinearLayout>
 
     </ScrollView>

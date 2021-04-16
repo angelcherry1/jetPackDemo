@@ -38,6 +38,14 @@
         android:layout_centerHorizontal="true"
         android:text="停止" />
 
+    <ImageView
+        android:id="@+id/iv_search"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:background="@drawable/searchbar_anim"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        />
     <com.example.jetpackdemo.animationView.CustomScoreBar
         android:id="@+id/csb"
         android:layout_width="300dp"

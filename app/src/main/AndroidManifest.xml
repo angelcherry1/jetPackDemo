@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".pagerLayoutManager.main.PagerLayoutActivity"></activity>
+        <activity android:name=".animationView.fish.FishActivity"></activity>
+        <activity android:name=".animationView.snow.SnowActivity" />
         <activity android:name=".gifshow.My3dShowActivity" />
         <activity android:name=".gifshow.GifActivity" />
         <activity android:name=".gifshow.GoogleActivity" />

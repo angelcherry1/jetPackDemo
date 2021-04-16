@@ -37,8 +37,8 @@ public class AnimationActivity extends AppCompatActivity {
     private CustomScoreBar csb;
     private ImageView iv_red, imageView;
     private FlexBoxLayout2 ll_add_view;
-    private EditText left_et, right_et, input;
-    private TextView tv_9;
+    private EditText left_et, right_et;
+//    private TextView tv_9;
     private AnnouncementView avm;
     private HorizontalScrollView hsv;
     private int conte = 1;
@@ -55,31 +55,31 @@ public class AnimationActivity extends AppCompatActivity {
         ll_add_view = findViewById(R.id.ll_add_view);
         avm = findViewById(R.id.avm);
         hsv = findViewById(R.id.hsv);
-        tv_9 = findViewById(R.id.tv_9);
-        input = findViewById(R.id.input);
-        ImageView iv_image = findViewById(R.id.iv_image);
+//        tv_9 = findViewById(R.id.tv_9);
+//        input = findViewById(R.id.input);
+//        ImageView iv_image = findViewById(R.id.iv_image);
         final ImageView iv_red2 = findViewById(R.id.iv_red2);
         Button start = findViewById(R.id.start);
         Button stop = findViewById(R.id.stop);
 
-        tv_9.setBackground(createNinePatch(this));
-        iv_image.setImageDrawable(createNinePatch(this));
-        input.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
-            }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-                tv_9.setText(s);
-            }
-        });
+//        tv_9.setBackground(createNinePatch(this));
+//        iv_image.setImageDrawable(createNinePatch(this));
+//        input.addTextChangedListener(new TextWatcher() {
+//            @Override
+//            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+//
+//            }
+//
+//            @Override
+//            public void onTextChanged(CharSequence s, int start, int before, int count) {
+//
+//            }
+//
+//            @Override
+//            public void afterTextChanged(Editable s) {
+//                tv_9.setText(s);
+//            }
+//        });
         final Button tanli = findViewById(R.id.tanli);
         ObjectAnimator textEnterAnim = ObjectAnimator.ofFloat(tanli, "translationY", 0f, 200.0f);
         textEnterAnim.setDuration(2000);
