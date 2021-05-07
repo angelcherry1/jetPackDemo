@@ -6,12 +6,11 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Typeface;
 import android.graphics.drawable.Animatable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Handler;
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -38,7 +37,7 @@ public class AnimationActivity extends AppCompatActivity {
     private ImageView iv_red, imageView;
     private FlexBoxLayout2 ll_add_view;
     private EditText left_et, right_et;
-//    private TextView tv_9;
+    //    private TextView tv_9;
     private AnnouncementView avm;
     private HorizontalScrollView hsv;
     private int conte = 1;
@@ -61,7 +60,10 @@ public class AnimationActivity extends AppCompatActivity {
         final ImageView iv_red2 = findViewById(R.id.iv_red2);
         Button start = findViewById(R.id.start);
         Button stop = findViewById(R.id.stop);
+        TextView font = findViewById(R.id.tv_font);
 
+        Typeface fromAsset = Typeface.createFromAsset(getAssets(), "app_mao_bi.ttf");
+        font.setTypeface(fromAsset);
 //        tv_9.setBackground(createNinePatch(this));
 //        iv_image.setImageDrawable(createNinePatch(this));
 //        input.addTextChangedListener(new TextWatcher() {

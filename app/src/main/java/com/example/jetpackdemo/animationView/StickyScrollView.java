@@ -89,7 +89,7 @@ public class StickyScrollView extends NestedScrollView {
                 R.styleable.StickyScrollView_stuckShadowDrawable, -1);
 
         if (shadowDrawableRes != -1) {
-            mShadowDrawable = context.getResources().getDrawable(
+            mShadowDrawable = context.getDrawable(
                     shadowDrawableRes);
         }
 
