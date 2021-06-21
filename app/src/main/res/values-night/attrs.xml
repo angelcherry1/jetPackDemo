@@ -104,4 +104,17 @@
         <attr name="lrcTimeTextColor" format="reference|color" />
         <attr name="lrcTimeTextSize" format="dimension" />
     </declare-styleable>
+
+    <!--验证码的属性-->
+    <declare-styleable name="uikit_verification_code_edit_text">
+        <attr name="uikit_figures" format="integer" />
+        <attr name="uikit_ver_code_margin" format="dimension" />
+        <attr name="uikit_bottom_line_selected_color" format="color|reference" />
+        <attr name="uikit_bottom_line_normal_color" format="color|reference" />
+        <attr name="uikit_bottom_line_height" format="dimension" />
+        <attr name="uikit_selected_background_color" format="color|reference" />
+        <attr name="uikit_cursor_duration" format="integer" />
+        <attr name="uikit_cursor_width" format="dimension" />
+        <attr name="uikit_cursor_color" format="color|reference" />
+    </declare-styleable>
 </resources>
