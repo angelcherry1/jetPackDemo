@@ -29,6 +29,7 @@ import androidx.dynamicanimation.animation.DynamicAnimation;
 import androidx.dynamicanimation.animation.SpringAnimation;
 
 import com.example.jetpackdemo.R;
+import com.example.jetpackdemo.view.CharAvatarView;
 
 public class AnimationActivity extends AppCompatActivity {
 
@@ -40,6 +41,7 @@ public class AnimationActivity extends AppCompatActivity {
     //    private TextView tv_9;
     private AnnouncementView avm;
     private HorizontalScrollView hsv;
+    private CharAvatarView char_av;
     private int conte = 1;
 
     @Override
@@ -54,6 +56,7 @@ public class AnimationActivity extends AppCompatActivity {
         ll_add_view = findViewById(R.id.ll_add_view);
         avm = findViewById(R.id.avm);
         hsv = findViewById(R.id.hsv);
+        char_av = findViewById(R.id.char_av);
 //        tv_9 = findViewById(R.id.tv_9);
 //        input = findViewById(R.id.input);
 //        ImageView iv_image = findViewById(R.id.iv_image);
@@ -61,6 +64,8 @@ public class AnimationActivity extends AppCompatActivity {
         Button start = findViewById(R.id.start);
         Button stop = findViewById(R.id.stop);
         TextView font = findViewById(R.id.tv_font);
+
+        char_av.setText("我是");
 
         Typeface fromAsset = Typeface.createFromAsset(getAssets(), "app_mao_bi.ttf");
         font.setTypeface(fromAsset);
@@ -224,6 +229,12 @@ public class AnimationActivity extends AppCompatActivity {
 
             }
         });
+    }
+
+    private String getCity(String region) {
+        int i = region.indexOf("-");
+
+        return null;
     }
 
     /**
