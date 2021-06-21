@@ -29,7 +29,8 @@ import androidx.dynamicanimation.animation.DynamicAnimation;
 import androidx.dynamicanimation.animation.SpringAnimation;
 
 import com.example.jetpackdemo.R;
-import com.example.jetpackdemo.view.CharAvatarView;
+import com.example.jetpackdemo.util.SizeUtils;
+import com.example.jetpackdemo.view.CharAvatarDrawable;
 
 public class AnimationActivity extends AppCompatActivity {
 
@@ -41,7 +42,7 @@ public class AnimationActivity extends AppCompatActivity {
     //    private TextView tv_9;
     private AnnouncementView avm;
     private HorizontalScrollView hsv;
-    private CharAvatarView char_av;
+    private ImageView char_av;
     private int conte = 1;
 
     @Override
@@ -65,7 +66,9 @@ public class AnimationActivity extends AppCompatActivity {
         Button stop = findViewById(R.id.stop);
         TextView font = findViewById(R.id.tv_font);
 
-        char_av.setText("我是");
+        CharAvatarDrawable charAvatarDrawable = new CharAvatarDrawable();
+        charAvatarDrawable.setText("我是", SizeUtils.dip2px(this, 50));
+        char_av.setImageDrawable(charAvatarDrawable);
 
         Typeface fromAsset = Typeface.createFromAsset(getAssets(), "app_mao_bi.ttf");
         font.setTypeface(fromAsset);

@@ -267,7 +267,7 @@
         android:text="我是你爹"
         android:layout_centerVertical="true" />
 
-    <com.example.jetpackdemo.view.CharAvatarView
+    <ImageView
         android:id="@+id/char_av"
         android:layout_width="50dp"
         android:layout_height="50dp"
