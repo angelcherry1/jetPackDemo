@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.davemorrissey.labs:subsampling-scale-image-view-androidx:3.10.0@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../.gradle/caches/transforms-2/files-2.1/6e8864fe78863e65b05ad93170dbddd1/jetified-subsampling-scale-image-view-androidx-3.10.0/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../.gradle/caches/transforms-2/files-2.1/6e8864fe78863e65b05ad93170dbddd1/jetified-subsampling-scale-image-view-androidx-3.10.0/res" />
-      <root url="file://$PROJECT_DIR$/../../.gradle/caches/transforms-2/files-2.1/6e8864fe78863e65b05ad93170dbddd1/jetified-subsampling-scale-image-view-androidx-3.10.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../.gradle/caches/transforms-2/files-2.1/eccaa7bb7131a75e56ecaeed871cab29/jetified-subsampling-scale-image-view-androidx-3.10.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../.gradle/caches/transforms-2/files-2.1/eccaa7bb7131a75e56ecaeed871cab29/jetified-subsampling-scale-image-view-androidx-3.10.0/res" />
+      <root url="file://$PROJECT_DIR$/../../.gradle/caches/transforms-2/files-2.1/eccaa7bb7131a75e56ecaeed871cab29/jetified-subsampling-scale-image-view-androidx-3.10.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../../.gradle/caches/modules-2/files-2.1/com.davemorrissey.labs/subsampling-scale-image-view-androidx/3.10.0/e90320d71bc0ba0b5a7e7974f8f7896572ce59f4/subsampling-scale-image-view-androidx-3.10.0-javadoc.jar!/" />

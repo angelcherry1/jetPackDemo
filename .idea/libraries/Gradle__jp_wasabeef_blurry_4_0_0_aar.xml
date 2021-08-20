@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: jp.wasabeef:blurry:4.0.0@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../.gradle/caches/transforms-2/files-2.1/e3f440a3cc1abeaa06d077d16c907ea6/jetified-blurry-4.0.0/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../.gradle/caches/transforms-2/files-2.1/e3f440a3cc1abeaa06d077d16c907ea6/jetified-blurry-4.0.0/res" />
-      <root url="file://$PROJECT_DIR$/../../.gradle/caches/transforms-2/files-2.1/e3f440a3cc1abeaa06d077d16c907ea6/jetified-blurry-4.0.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../.gradle/caches/transforms-2/files-2.1/fb3e78e231c67cee226b741bf35a5f0f/jetified-blurry-4.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../.gradle/caches/transforms-2/files-2.1/fb3e78e231c67cee226b741bf35a5f0f/jetified-blurry-4.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../.gradle/caches/transforms-2/files-2.1/fb3e78e231c67cee226b741bf35a5f0f/jetified-blurry-4.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../../.gradle/caches/modules-2/files-2.1/jp.wasabeef/blurry/4.0.0/2afcd2e0201868fd36d1893873936adeb573b957/blurry-4.0.0-javadoc.jar!/" />
