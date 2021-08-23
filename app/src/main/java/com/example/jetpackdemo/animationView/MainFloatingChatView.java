@@ -1,7 +1,5 @@
 package com.example.jetpackdemo.animationView;
 
-import android.animation.Animator;
-import android.animation.AnimatorListenerAdapter;
 import android.animation.ValueAnimator;
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -73,6 +71,7 @@ public class MainFloatingChatView extends View {
             messageItem.setContext(lastMessage);
             messageItem.setAvatarBitMap(avatarBitmap.get(0));
             messageItem.setPlay(i == 0);
+            messageItem.setMaxWith(SizeUtils.dip2px(getContext(), 150));
             messageItems.add(messageItem);
         }
 
@@ -87,8 +86,11 @@ public class MainFloatingChatView extends View {
             for (MessageItem messageItem : messageItems) {
                 if (messageItem.isPlay) {
                     messageItem.onMeasure();
-                    setMeasuredDimension(messageItem.getViewWith(), messageItem.getViewHith());
+                    setMeasuredDimension(messageItem.getViewWith(), messageItem.getViewHeight());
+                } else {
+                    messageItem.onMeasure();
                 }
+
             }
 
         }
@@ -130,11 +132,10 @@ public class MainFloatingChatView extends View {
     public void startAnimation() {
         if (startPlay) return;
         starAnimation(0, SizeUtils.dip2px(getContext(), 40));
-        startPlay = true;
     }
 
     private void starAnimation(float stary, float endy) {
-
+        startPlay = true;
         ValueAnimator valueAnimator = ValueAnimator.ofFloat(stary, endy);
         valueAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
             @Override
@@ -156,15 +157,6 @@ public class MainFloatingChatView extends View {
         valueAnimator.setInterpolator(new AccelerateInterpolator());
         valueAnimator.setDuration(500);
         valueAnimator.start();
-        valueAnimator.addListener(new AnimatorListenerAdapter() {
-
-            @Override
-            public void onAnimationEnd(Animator animation, boolean isReverse) {
-
-            }
-        });
-
-
     }
 
 
@@ -172,7 +164,8 @@ public class MainFloatingChatView extends View {
         private int x;
         private int y;
         private int viewWith;
-        private int viewHith;
+        private int viewHeight;
+        private int maxWith;
         private boolean isPlay;
 
         private int textColor;
@@ -232,12 +225,12 @@ public class MainFloatingChatView extends View {
             this.viewWith = viewWith;
         }
 
-        public int getViewHith() {
-            return viewHith;
+        public int getViewHeight() {
+            return viewHeight;
         }
 
-        public void setViewHith(int viewHith) {
-            this.viewHith = viewHith;
+        public void setViewHeight(int viewHeight) {
+            this.viewHeight = viewHeight;
         }
 
         public String getContext() {
@@ -264,6 +257,14 @@ public class MainFloatingChatView extends View {
             isPlay = play;
         }
 
+        public int getMaxWith() {
+            return maxWith;
+        }
+
+        public void setMaxWith(int maxWith) {
+            this.maxWith = maxWith;
+        }
+
         public Paint getTextPaint() {
             if (textPaint == null) {
                 textPaint = new TextPaint(Paint.ANTI_ALIAS_FLAG);
@@ -285,25 +286,25 @@ public class MainFloatingChatView extends View {
                 viewWith = SizeUtils.dip2px(Utils.getApp(), 40);
             } else {
                 float v = getTextPaint().measureText(getContext()) + SizeUtils.dip2px(Utils.getApp(), 5);
-                float v2 = Math.min(v, SizeUtils.dip2px(Utils.getApp(), 150));
-                if (v > SizeUtils.dip2px(Utils.getApp(), 150)) {
-                    String ellipsizeStr = (String) TextUtils.ellipsize(getContext(), (TextPaint) getTextPaint(), SizeUtils.dip2px(Utils.getApp(), 150), TextUtils.TruncateAt.END);
+                float v2 = Math.min(v, getMaxWith());
+                if (v > getMaxWith()) {
+                    String ellipsizeStr = (String) TextUtils.ellipsize(getContext(), (TextPaint) getTextPaint(), getMaxWith(), TextUtils.TruncateAt.END);
                     setContext(ellipsizeStr);
                 }
                 viewWith = SizeUtils.dip2px(Utils.getApp(), 40) + (int) v2;
             }
-            viewHith = SizeUtils.dip2px(Utils.getApp(), 40);
+            viewHeight = SizeUtils.dip2px(Utils.getApp(), 40);
         }
 
 
         public void onDraw(Canvas canvas) {
             canvas.save();
-            int ay = (int) ((getViewHith() - avatarBitMap.getHeight()) / 2) - step;
-            canvas.drawBitmap(getAvatarBitMap(), x, isPlay ? getViewHith() + ay : ay, getAvatarPaint());
+            int ay = (int) ((getViewHeight() - avatarBitMap.getHeight()) / 2) - step;
+            canvas.drawBitmap(getAvatarBitMap(), x, isPlay ? getViewHeight() + ay : ay, getAvatarPaint());
             //文字的y轴坐标
             Paint.FontMetrics fontMetrics = getTextPaint().getFontMetrics();
-            float y = getViewHith() / 2 + (Math.abs(fontMetrics.ascent) - fontMetrics.descent) / 2 - getStep();
-            canvas.drawText(getContext(), getViewHith(), isPlay ? getViewHith() + y : y, getTextPaint());
+            float y = getViewHeight() / 2 + (Math.abs(fontMetrics.ascent) - fontMetrics.descent) / 2 - getStep();
+            canvas.drawText(getContext(), getViewHeight(), isPlay ? getViewHeight() + y : y, getTextPaint());
             canvas.restore();
         }
     }
