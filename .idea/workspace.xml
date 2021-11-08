@@ -36,11 +36,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c73ef40-7462-4a9d-b77d-6e0797bda482" name="Default Changelist" comment="默认头像自定义">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_adapters_4_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_blankj_utilcodex_1_30_6_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/MainFloatingChatView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/util/BitmapUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/moren_avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/util/HelloPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/view/VerificationCodeView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/view/vercodeView/PwdEditText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/view/vercodeView/PwdTextView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/view/vercodeView/TInputConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/view/vercodeView/VerificationCodeView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/shape_divider_identifying.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/shape_icv_et_bg_focus.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/shape_icv_et_bg_normal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_identifying_code.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" />
@@ -56,93 +61,25 @@
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_2_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_2_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_0_4_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_0_4_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_1_0_beta01_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_1_0_beta01_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_adapters_4_0_2_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_common_4_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_common_4_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_common_4_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_runtime_4_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_runtime_4_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_viewbinding_4_0_2_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_viewbinding_4_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_viewbinding_4_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_1_0_beta01_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_1_0_beta01_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_dynamicanimation_dynamicanimation_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_dynamicanimation_dynamicanimation_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_exifinterface_exifinterface_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_exifinterface_exifinterface_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_2_4_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_2_4_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_extensions_2_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_extensions_2_2_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_2_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_2_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_process_2_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_process_2_2_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_2_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_service_2_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_service_2_2_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_2_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_2_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_common_2_3_0_alpha06_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_common_2_3_0_alpha06_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_2_3_0_alpha06_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_2_3_0_alpha06_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_2_3_0_alpha06_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_2_3_0_alpha06_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_ui_2_3_0_alpha06_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_ui_2_3_0_alpha06_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_runtime_2_2_5_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_runtime_2_2_5_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_2_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_2_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_framework_2_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_framework_2_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_3_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_3_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_3_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_3_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_3_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_3_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_davemorrissey_labs_subsampling_scale_image_view_androidx_3_10_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_davemorrissey_labs_subsampling_scale_image_view_androidx_3_10_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_CymChad_BaseRecyclerViewAdapterHelper_3_0_4_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_CymChad_BaseRecyclerViewAdapterHelper_3_0_4_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_anzaizai_EasySwipeMenuLayout_1_1_4_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_anzaizai_EasySwipeMenuLayout_1_1_4_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_11_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_11_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_11_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_11_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_vr_sdk_common_1_160_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_vr_sdk_common_1_160_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_vr_sdk_commonwidget_1_160_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_vr_sdk_commonwidget_1_160_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_vr_sdk_panowidget_1_160_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_vr_sdk_panowidget_1_160_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jp_co_cyberagent_android_gpuimage_2_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jp_co_cyberagent_android_gpuimage_2_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jp_wasabeef_blurry_4_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jp_wasabeef_blurry_4_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__jp_wasabeef_glide_transformations_4_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jp_wasabeef_glide_transformations_4_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__pl_droidsonroids_gif_android_gif_drawable_1_2_19_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__pl_droidsonroids_gif_android_gif_drawable_1_2_19_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__pl_droidsonroids_relinker_1_3_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__pl_droidsonroids_relinker_1_3_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/jetPackDemo.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/jetPackDemo.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/fish/FishActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/animationView/fish/FishActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_fish.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_fish.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/html5.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/html5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/activity/DialogActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/activity/DialogActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/recycleView/CustomItemochCallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/jetpackdemo/recycleView/CustomItemochCallBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_dialog_dialog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_dialog_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_snow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_snow.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-night/attrs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DLS4C20416001784]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -200,6 +137,7 @@
     <property name="android-custom-viewC:/Users/admin/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.2.0/13e8ff89631c2e101eb6bddd12c2fb4bbd74b15d/appcompat-1.2.0-sources.jar!/androidx/appcompat/widget/AppCompatTextView.java_SELECTED" value="AppCompatTextView" />
     <property name="android-custom-viewC:/Users/admin/.gradle/caches/modules-2/files-2.1/androidx.viewpager2/viewpager2/1.0.0/3c3569044e6969f1ee5c3aa03b08e6717a2d782f/viewpager2-1.0.0-sources.jar!/androidx/viewpager2/widget/ViewPager2.java_SELECTED" value="ViewPager2" />
     <property name="android-custom-viewD:/Android/.gradle/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/db045f92188b9d247d5f556866f8861ab68528f0/viewpager-1.0.0-sources.jar!/androidx/viewpager/widget/ViewPager.java_SELECTED" value="ViewPager" />
+    <property name="android-custom-viewD:/Android/.gradle/caches/modules-2/files-2.1/com.jacktuotuo.customview/verificationcodeview/1.0.5/3a06bfe80ac47482cd251ab21789b7267b89964f/verificationcodeview-1.0.5-sources.jar!/com/tuo/customview/VerificationCodeView.java_SELECTED" value="VerificationCodeView" />
     <property name="android-custom-viewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/BezierView.java_SELECTED" value="BezierView" />
     <property name="android-custom-viewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/FlexBoxLayout.java_SELECTED" value="FlexBoxLayout" />
     <property name="android-custom-viewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/FlexBoxLayout2.java_SELECTED" value="FlexBoxLayout2" />
@@ -211,6 +149,10 @@
     <property name="android-custom-viewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/StickyScrollView.java_SELECTED" value="StickyScrollView" />
     <property name="android-custom-viewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/myViewGroup/MyFlowlayout.java_SELECTED" value="MyFlowlayout" />
     <property name="android-custom-viewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/snow/SnowView.java_SELECTED" value="SnowView" />
+    <property name="android-custom-viewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/wave/Solid.java_SELECTED" value="Solid" />
+    <property name="android-custom-viewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/wave/Wave.java_SELECTED" value="Wave" />
+    <property name="android-custom-viewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/wave/WaveView.java_SELECTED" value="WaveView" />
+    <property name="android-custom-viewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/gifshow/gif/VrGifView.java_SELECTED" value="VrGifView" />
     <property name="android-custom-viewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager/DragViewPager.java_SELECTED" value="DragViewPager" />
     <property name="android-custom-viewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager/DragViewPager2.java_SELECTED" value="DragViewPager2" />
     <property name="android-custom-viewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager2AndViewpager2/widget/MyViewPager2.java_SELECTED" value="MyViewPager2" />
@@ -221,7 +163,12 @@
     <property name="android-custom-viewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/RoundProgressBar.java_SELECTED" value="RoundProgressBar" />
     <property name="android-custom-viewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/SinWaveView.java_SELECTED" value="SinWaveView" />
     <property name="android-custom-viewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/VerificationCodeEditText.java_SELECTED" value="VerificationCodeEditText" />
+    <property name="android-custom-viewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/VerificationCodeView.java_SELECTED" value="VerificationCodeView" />
+    <property name="android-custom-viewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/bubbleviewlibrary/BubbleView.java_SELECTED" value="BubbleView" />
     <property name="android-custom-viewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/lrcView/YCLrcCustomView.java_SELECTED" value="YCLrcCustomView" />
+    <property name="android-custom-viewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/vercodeView/PwdEditText.java_SELECTED" value="PwdEditText" />
+    <property name="android-custom-viewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/vercodeView/PwdTextView.java_SELECTED" value="PwdTextView" />
+    <property name="android-custom-viewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/vercodeView/VerificationCodeView.java_SELECTED" value="VerificationCodeView" />
     <property name="android-custom-viewD:/Android/SDK/sources/android-29/android/view/View.java_SELECTED" value="View" />
     <property name="android-custom-viewD:/Android/SDK/sources/android-29/android/widget/ImageView.java_SELECTED" value="ImageView" />
     <property name="android-custom-viewD:/Android/SDK/sources/android-29/android/widget/TextView.java_SELECTED" value="TextView" />
@@ -250,11 +197,12 @@
     <property name="android-custom-viewE:/Android/SDK/sources/android-29/android/widget/ImageView.java_SELECTED" value="ImageView" />
     <property name="android-custom-viewE:/Android/SDK/sources/android-29/android/widget/TextView.java_SELECTED" value="TextView" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/layout" />
     <property name="multi-representation-previewC:/Users/admin/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.1.0/9865019bbd2d95e41dede3d8ebf964aa93f97766/appcompat-1.1.0-sources.jar!/androidx/appcompat/widget/AppCompatButton.java_selected" value="Custom views" />
     <property name="multi-representation-previewC:/Users/admin/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.2.0/13e8ff89631c2e101eb6bddd12c2fb4bbd74b15d/appcompat-1.2.0-sources.jar!/androidx/appcompat/widget/AppCompatTextView.java_selected" value="Custom views" />
     <property name="multi-representation-previewC:/Users/admin/.gradle/caches/modules-2/files-2.1/androidx.viewpager2/viewpager2/1.0.0/3c3569044e6969f1ee5c3aa03b08e6717a2d782f/viewpager2-1.0.0-sources.jar!/androidx/viewpager2/widget/ViewPager2.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/Android/.gradle/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/db045f92188b9d247d5f556866f8861ab68528f0/viewpager-1.0.0-sources.jar!/androidx/viewpager/widget/ViewPager.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/Android/.gradle/caches/modules-2/files-2.1/com.jacktuotuo.customview/verificationcodeview/1.0.5/3a06bfe80ac47482cd251ab21789b7267b89964f/verificationcodeview-1.0.5-sources.jar!/com/tuo/customview/VerificationCodeView.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/BezierView.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/FlexBoxLayout.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/FlexBoxLayout2.java_selected" value="Custom views" />
@@ -266,17 +214,26 @@
     <property name="multi-representation-previewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/StickyScrollView.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/myViewGroup/MyFlowlayout.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/snow/SnowView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/wave/Solid.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/wave/Wave.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/animationView/wave/WaveView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/gifshow/gif/VrGifView.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager/DragViewPager.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager/DragViewPager2.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/pagerMore/viewPager2AndViewpager2/widget/MyViewPager2.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/BubbleView.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/CharAvatarView.java_selected" value="Custom views" />
-    <property name="multi-representation-previewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/CircleImageView.java_selected" value="" />
+    <property name="multi-representation-previewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/CircleImageView.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/MyView.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/RoundProgressBar.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/SinWaveView.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/VerificationCodeEditText.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/VerificationCodeView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/bubbleviewlibrary/BubbleView.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/lrcView/YCLrcCustomView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/vercodeView/PwdEditText.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/vercodeView/PwdTextView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/Android/AndroidProject/jetPackDemo/app/src/main/java/com/example/jetpackdemo/view/vercodeView/VerificationCodeView.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/Android/SDK/sources/android-29/android/view/View.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/Android/SDK/sources/android-29/android/widget/ImageView.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/Android/SDK/sources/android-29/android/widget/TextView.java_selected" value="Custom views" />
@@ -307,7 +264,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -318,11 +275,11 @@
       <recent name="com.example.jetpackdemo.animationView" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Android\AndroidProject\jetPackDemo\app\src\main\res\mipmap-xhdpi" />
-      <recent name="D:\Android\AndroidProject\jetPackDemo\app\src\main\java\com\example\jetpackdemo\view" />
-      <recent name="D:\Android\AndroidProject\jetPackDemo\app\src\main\assets" />
-      <recent name="D:\Android\AndroidProject\jetPackDemo\app\src\main\res\mipmap-mdpi" />
       <recent name="D:\Android\AndroidProject\jetPackDemo\app\src\main\res\layout" />
+      <recent name="D:\Android\AndroidProject\jetPackDemo\app\src\main\res\drawable" />
+      <recent name="D:\Android\AndroidProject\jetPackDemo\app\src\main\java\com\example\jetpackdemo\view\vercodeView" />
+      <recent name="D:\Android\AndroidProject\jetPackDemo\app\src\main\java\com\example\jetpackdemo\view\bubbleviewlibrary" />
+      <recent name="D:\Android\AndroidProject\jetPackDemo\app\src\main\res\mipmap-xhdpi" />
     </key>
     <key name="android.template.1481324162">
       <recent name="com.example.jetpackdemo.gifshow" />
@@ -353,8 +310,8 @@
       <recent name="com.example.jetpackdemo.pagerMore.viewPager2AndViewpager2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.example.jetpackdemo.animationView" />
       <recent name="com.example.jetpackdemo.view" />
+      <recent name="com.example.jetpackdemo.animationView" />
       <recent name="com.example.jetpackdemo.view.bean" />
       <recent name="com.example.jetpackdemo.viewPager.indector" />
       <recent name="com.example.jetpackdemo.viewPager.indector.uitils" />
@@ -453,20 +410,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588681619459</updated>
-    </task>
-    <task id="LOCAL-00004" summary="第一次navigation示例提交">
-      <created>1588862880198</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1588862880198</updated>
-    </task>
-    <task id="LOCAL-00005" summary="第一次navigation示例提交">
-      <created>1588863065355</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1588863065355</updated>
     </task>
     <task id="LOCAL-00006" summary="room示例提交">
       <created>1588952984236</created>
@@ -797,7 +740,21 @@
       <option name="project" value="LOCAL" />
       <updated>1624932735404</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="浮窗自定义view">
+      <created>1629462223861</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1629462223861</updated>
+    </task>
+    <task id="LOCAL-00054" summary="默认头像自定义">
+      <created>1629686227517</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1629686227518</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -825,7 +782,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="上传自定义比分进度条组件" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="渲染特定的问题示例上传" />
     <MESSAGE value="事件分发上传" />
     <MESSAGE value="进度条修改" />
@@ -845,71 +802,80 @@
     <MESSAGE value="gradle更新" />
     <MESSAGE value="3d VR图像展示" />
     <MESSAGE value="相册拖拽" />
-    <MESSAGE value="默认头像自定义" />
     <MESSAGE value="默认头像自定义drawable" />
     <MESSAGE value="验证码" />
     <MESSAGE value="防qq气泡自定义view" />
     <MESSAGE value="圆形头像view" />
-    <option name="LAST_COMMIT_MESSAGE" value="圆形头像view" />
+    <MESSAGE value="浮窗自定义view" />
+    <MESSAGE value="默认头像自定义" />
+    <option name="LAST_COMMIT_MESSAGE" value="默认头像自定义" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="764" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1629459858034">
+    <state x="764" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1629946275521">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="764" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1629459858034" />
-    <state x="741" y="264" key="AndroidProcessChooserDialog" timestamp="1629461686806">
+    <state x="764" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1629946275521" />
+    <state x="741" y="264" key="AndroidProcessChooserDialog" timestamp="1629685977205">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="741" y="264" key="AndroidProcessChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629461686806" />
-    <state x="523" y="102" width="1256" height="829" key="CommitChangelistDialog2" timestamp="1624932733483">
+    <state x="741" y="264" key="AndroidProcessChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629685977205" />
+    <state x="523" y="102" width="1256" height="829" key="CommitChangelistDialog2" timestamp="1636338580038">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="523" y="102" width="1256" height="829" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1624932733483" />
-    <state width="1875" height="118" key="GridCell.Tab.0.bottom" timestamp="1629461761575">
+    <state x="523" y="102" width="1256" height="829" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1636338580038" />
+    <state x="183" y="85" key="DiffContextDialog" timestamp="1629686448010">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="118" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1629461761575" />
-    <state width="1875" height="118" key="GridCell.Tab.0.center" timestamp="1629461761575">
+    <state x="183" y="85" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629686448010" />
+    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1636338277615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="118" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1629461761575" />
-    <state width="1875" height="118" key="GridCell.Tab.0.left" timestamp="1629461761575">
+    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1636338277615" />
+    <state width="1875" height="118" key="GridCell.Tab.1.bottom" timestamp="1629686009417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="118" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1629461761575" />
-    <state width="1875" height="118" key="GridCell.Tab.0.right" timestamp="1629461761575">
+    <state width="1875" height="118" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1629686009417" />
+    <state width="1875" height="118" key="GridCell.Tab.1.center" timestamp="1629686009417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="118" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1629461761575" />
-    <state width="1875" height="118" key="GridCell.Tab.1.bottom" timestamp="1629461761576">
+    <state width="1875" height="118" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1629686009417" />
+    <state width="1875" height="118" key="GridCell.Tab.1.left" timestamp="1629686009416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="118" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1629461761576" />
-    <state width="1875" height="118" key="GridCell.Tab.1.center" timestamp="1629461761576">
+    <state width="1875" height="118" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1629686009416" />
+    <state width="1875" height="118" key="GridCell.Tab.1.right" timestamp="1629686009417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="118" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1629461761576" />
-    <state width="1875" height="118" key="GridCell.Tab.1.left" timestamp="1629461761576">
+    <state width="1875" height="118" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1629686009417" />
+    <state x="684" y="220" key="RollbackChangesDialog" timestamp="1636338571156">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="118" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1629461761576" />
-    <state width="1875" height="118" key="GridCell.Tab.1.right" timestamp="1629461761576">
+    <state x="684" y="220" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1636338571156" />
+    <state x="460" y="163" key="SettingsEditor" timestamp="1629686752410">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1875" height="118" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1629461761576" />
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1624932742263">
+    <state x="460" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1629686752410" />
+    <state x="839" y="432" key="VCS.EditChangelistDialog" timestamp="1629686489931">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1624932742263" />
+    <state x="839" y="432" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629686489931" />
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2" timestamp="1629686455881">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="551" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1629686455881" />
     <state x="758" y="296" key="chooseDestDirectoryDialog" timestamp="1629423745289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="758" y="296" key="chooseDestDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629423745289" />
-    <state x="752" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1621826831584">
+    <state x="752" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1636338583613">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="752" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1621826831584" />
+    <state x="752" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1636338583613" />
+    <state x="662" y="223" width="596" height="594" key="find.popup" timestamp="1635822962486">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="662" y="223" width="596" height="594" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1635822962486" />
     <state x="660" y="275" key="refactoring.ChangeSignatureDialog" timestamp="1629426826394">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

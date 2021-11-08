@@ -1,5 +1,6 @@
 package com.example.jetpackdemo.recycleView;
 
+import android.graphics.Canvas;
 import android.util.Log;
 
 import androidx.annotation.NonNull;
@@ -22,7 +23,7 @@ public class CustomItemochCallBack extends ItemTouchHelper.Callback {
         // 上下拖动
         int dragFlags = ItemTouchHelper.UP | ItemTouchHelper.DOWN;
         // 向左滑动
-        int swipeFlags = ItemTouchHelper.LEFT;
+        int swipeFlags = ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT;
         return makeMovementFlags(dragFlags, swipeFlags);
     }
 
@@ -39,6 +40,12 @@ public class CustomItemochCallBack extends ItemTouchHelper.Callback {
         // 从数据源中移除相应的数据
         mAdapter.removeAt(viewHolder.getAdapterPosition());
         Log.i("测试位置", "滑动距离" + direction);
+
+    }
+
+    @Override
+    public void onChildDraw(@NonNull Canvas c, @NonNull RecyclerView recyclerView, @NonNull RecyclerView.ViewHolder viewHolder, float dX, float dY, int actionState, boolean isCurrentlyActive) {
+        super.onChildDraw(c, recyclerView, viewHolder, dX, dY, actionState, isCurrentlyActive);
 
     }
 }
