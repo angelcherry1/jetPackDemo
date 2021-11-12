@@ -77,16 +77,16 @@ public class VerificationCodeView extends RelativeLayout {
         containerEt = (LinearLayout) this.findViewById(R.id.container_et);
         et = (PwdEditText) this.findViewById(R.id.et);
 
-        TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.VerificationCodeView, defStyleAttr, 0);
-        mEtNumber = typedArray.getInteger(R.styleable.VerificationCodeView_icv_et_number, 1);
-        mEtWidth = typedArray.getDimensionPixelSize(R.styleable.VerificationCodeView_icv_et_width, 42);
-        mEtDividerDrawable = typedArray.getDrawable(R.styleable.VerificationCodeView_icv_et_divider_drawable);
-        mEtTextSize = typedArray.getDimensionPixelSize(R.styleable.VerificationCodeView_icv_et_text_size, (int) sp2px(16, context));
-        mEtTextColor = typedArray.getColor(R.styleable.VerificationCodeView_icv_et_text_color, Color.BLACK);
-        mEtBackgroundDrawableFocus = typedArray.getDrawable(R.styleable.VerificationCodeView_icv_et_bg_focus);
-        mEtBackgroundDrawableNormal = typedArray.getDrawable(R.styleable.VerificationCodeView_icv_et_bg_normal);
-        mEtPwd = typedArray.getBoolean(R.styleable.VerificationCodeView_icv_et_pwd, false);
-        mEtPwdRadius = typedArray.getDimensionPixelSize(R.styleable.VerificationCodeView_icv_et_pwd_radius, 0);
+        TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.VerificationCodeView2, defStyleAttr, 0);
+        mEtNumber = typedArray.getInteger(R.styleable.VerificationCodeView2_icv_et_number, 1);
+        mEtWidth = typedArray.getDimensionPixelSize(R.styleable.VerificationCodeView2_icv_et_width, 42);
+        mEtDividerDrawable = typedArray.getDrawable(R.styleable.VerificationCodeView2_icv_et_divider_drawable);
+        mEtTextSize = typedArray.getDimensionPixelSize(R.styleable.VerificationCodeView2_icv_et_text_size, (int) sp2px(16, context));
+        mEtTextColor = typedArray.getColor(R.styleable.VerificationCodeView2_icv_et_text_color, Color.BLACK);
+        mEtBackgroundDrawableFocus = typedArray.getDrawable(R.styleable.VerificationCodeView2_icv_et_bg_focus);
+        mEtBackgroundDrawableNormal = typedArray.getDrawable(R.styleable.VerificationCodeView2_icv_et_bg_normal);
+        mEtPwd = typedArray.getBoolean(R.styleable.VerificationCodeView2_icv_et_pwd, false);
+        mEtPwdRadius = typedArray.getDimensionPixelSize(R.styleable.VerificationCodeView2_icv_et_pwd_radius, 0);
         //释放资源
         typedArray.recycle();
 
